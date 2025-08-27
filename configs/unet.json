@@ -1,0 +1,46 @@
+{
+  "exp_name": "unet_exp_LEIVCE_seg_512_1",
+  "agent": "UnetAgent",
+  "mode": "train",
+
+  "cuda": true,
+  "gpu_device": 0,
+  "seed": 2154,
+
+  "start_epoch": 0,
+  "max_epoch": 100,
+  "mask_ratio": 0.75,
+  "pretrained_path": "/home/jovyan/work/Code/pretrained",
+  "save_path": "/home/jovyan/input/Code/Science/experiments/unet_exp_LEIVCE_seg_512_1/save",
+  "data_path": "/home/jovyan/input/testfork/LEIVCD_seg_512/",
+  "log_path": "/home/jovyan/input/Code/Science/experiments/unet_exp_LEIVCE_seg_512_1/log/",
+  "save_image_dir": "/home/jovyan/input/Code/Science/experiments/unet_exp_LEIVCE_seg_512_1/unet_save_image",
+  "save_label_dir": "/home/jovyan/input/Code/Science/experiments/unet_exp_LEIVCE_seg_512_1/unet_save_label",
+  "save_out_dir": "/home/jovyan/input/Code/Science/experiments/unet_exp_LEIVCE_seg_512_1/unet_save_out",
+  "save_checkpoint_path": "/home/jovyan/input/Code/Science/experiments/unet_exp_LEIVCE_seg_512_1/checkpoints",
+  "train_batch_size": 16,
+  "test_batch_size": 1,
+  "model_name": "Unet",
+  "save_every": 10,
+  "resume": true,
+  "num_worker": 0,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-8,
+  "img_size": 224,
+  "num_classes": 3,
+  "n_skip": 3,
+
+
+  "momentum": 0.5,
+  "beta1": 0.9,
+  "beta2": 0.999,
+
+
+  "log_interval": 10,
+
+
+  "data_loader": "UnetDataLoader",
+
+  "data_mode": "imags",
+  "data_folder": ""
+}

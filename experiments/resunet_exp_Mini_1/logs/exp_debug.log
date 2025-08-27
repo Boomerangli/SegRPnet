@@ -1,0 +1,1208 @@
+[INFO] - 2024-07-11 10:42:58,409 - Cuda Statistics - : __pyTorch VERSION:  1.7.0 in /home/jovyan/work/Code/utils/misc.py:26
+[INFO] - 2024-07-11 10:42:58,409 - Cuda Statistics - : __CUDA VERSION in /home/jovyan/work/Code/utils/misc.py:27
+[INFO] - 2024-07-11 10:42:58,581 - Cuda Statistics - : __CUDNN VERSION:  8003 in /home/jovyan/work/Code/utils/misc.py:29
+[INFO] - 2024-07-11 10:42:58,581 - Cuda Statistics - : __Number CUDA Devices:  1 in /home/jovyan/work/Code/utils/misc.py:30
+[INFO] - 2024-07-11 10:42:58,581 - Cuda Statistics - : __Devices in /home/jovyan/work/Code/utils/misc.py:31
+[INFO] - 2024-07-11 10:42:58,726 - Cuda Statistics - : Active CUDA Device: GPU 0 in /home/jovyan/work/Code/utils/misc.py:34
+[INFO] - 2024-07-11 10:42:58,726 - Cuda Statistics - : Available devices  1 in /home/jovyan/work/Code/utils/misc.py:35
+[INFO] - 2024-07-11 10:42:58,726 - Cuda Statistics - : Current cuda device  0 in /home/jovyan/work/Code/utils/misc.py:36
+[INFO] - 2024-07-11 10:43:04,536 - Agent - : Train Epoch: 0 [0/473 (0%)]	Loss: 0.663334 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:43:11,546 - Agent - : Train Epoch: 0 [160/473 (34%)]	Loss: 0.552246 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:43:18,697 - Agent - : Train Epoch: 0 [320/473 (69%)]	Loss: 0.498344 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:45:47,836 - Agent - : 
+Test set: acc: 47.9674, IOU: 12.4476, pre: 13.2541, rec: 67.1644, F1: 22.1393, kappa: 4.5851
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 10:45:53,388 - Agent - : Train Epoch: 1 [0/473 (0%)]	Loss: 0.461067 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:46:00,008 - Agent - : Train Epoch: 1 [160/473 (34%)]	Loss: 0.451048 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:46:06,641 - Agent - : Train Epoch: 1 [320/473 (69%)]	Loss: 0.415648 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:48:35,141 - Agent - : 
+Test set: acc: 45.2568, IOU: 14.4015, pre: 14.8195, rec: 83.6215, F1: 25.1771, kappa: 7.9531
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 10:48:35,809 - Agent - : Train Epoch: 2 [0/473 (0%)]	Loss: 0.407005 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:48:42,478 - Agent - : Train Epoch: 2 [160/473 (34%)]	Loss: 0.410628 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:48:49,981 - Agent - : Train Epoch: 2 [320/473 (69%)]	Loss: 0.381188 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:51:18,452 - Agent - : 
+Test set: acc: 90.5331, IOU: 39.2506, pre: 57.2400, rec: 55.5338, F1: 56.3740, kappa: 51.0658
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 10:51:19,097 - Agent - : Train Epoch: 3 [0/473 (0%)]	Loss: 0.374334 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:51:25,849 - Agent - : Train Epoch: 3 [160/473 (34%)]	Loss: 0.381581 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:51:32,588 - Agent - : Train Epoch: 3 [320/473 (69%)]	Loss: 0.354109 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:54:01,675 - Agent - : 
+Test set: acc: 94.3673, IOU: 60.2416, pre: 73.0220, rec: 77.4875, F1: 75.1885, kappa: 72.0147
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 10:54:02,374 - Agent - : Train Epoch: 4 [0/473 (0%)]	Loss: 0.345303 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:54:09,052 - Agent - : Train Epoch: 4 [160/473 (34%)]	Loss: 0.360370 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:54:15,830 - Agent - : Train Epoch: 4 [320/473 (69%)]	Loss: 0.330523 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:56:43,824 - Agent - : 
+Test set: acc: 94.6444, IOU: 61.8676, pre: 74.1416, rec: 78.8902, F1: 76.4422, kappa: 73.4243
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 10:56:49,264 - Agent - : Train Epoch: 5 [0/473 (0%)]	Loss: 0.322763 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:56:55,879 - Agent - : Train Epoch: 5 [160/473 (34%)]	Loss: 0.332664 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:57:03,169 - Agent - : Train Epoch: 5 [320/473 (69%)]	Loss: 0.313441 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:59:34,174 - Agent - : 
+Test set: acc: 94.4721, IOU: 59.2474, pre: 75.9107, rec: 72.9661, F1: 74.4092, kappa: 71.3120
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 10:59:34,848 - Agent - : Train Epoch: 6 [0/473 (0%)]	Loss: 0.307241 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:59:41,584 - Agent - : Train Epoch: 6 [160/473 (34%)]	Loss: 0.311341 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 10:59:48,280 - Agent - : Train Epoch: 6 [320/473 (69%)]	Loss: 0.293129 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:02:17,732 - Agent - : 
+Test set: acc: 94.8844, IOU: 62.8739, pre: 75.8072, rec: 78.6565, F1: 77.2056, kappa: 74.3256
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:02:18,378 - Agent - : Train Epoch: 7 [0/473 (0%)]	Loss: 0.285846 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:02:25,191 - Agent - : Train Epoch: 7 [160/473 (34%)]	Loss: 0.291144 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:02:31,855 - Agent - : Train Epoch: 7 [320/473 (69%)]	Loss: 0.275922 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:04:59,651 - Agent - : 
+Test set: acc: 94.7202, IOU: 63.6559, pre: 72.4696, rec: 83.9590, F1: 77.7924, kappa: 74.8147
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:05:00,314 - Agent - : Train Epoch: 8 [0/473 (0%)]	Loss: 0.274978 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:05:06,991 - Agent - : Train Epoch: 8 [160/473 (34%)]	Loss: 0.275437 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:05:13,822 - Agent - : Train Epoch: 8 [320/473 (69%)]	Loss: 0.260406 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:07:42,172 - Agent - : 
+Test set: acc: 94.1185, IOU: 59.9600, pre: 70.5598, rec: 79.9653, F1: 74.9687, kappa: 71.6512
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:07:47,488 - Agent - : Train Epoch: 9 [0/473 (0%)]	Loss: 0.262963 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:07:54,160 - Agent - : Train Epoch: 9 [160/473 (34%)]	Loss: 0.257286 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:08:00,819 - Agent - : Train Epoch: 9 [320/473 (69%)]	Loss: 0.244937 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:10:29,442 - Agent - : 
+Test set: acc: 95.1033, IOU: 64.0095, pre: 77.0676, rec: 79.0698, F1: 78.0559, kappa: 75.3005
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:10:30,101 - Agent - : Train Epoch: 10 [0/473 (0%)]	Loss: 0.245592 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:10:37,647 - Agent - : Train Epoch: 10 [160/473 (34%)]	Loss: 0.242499 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:10:44,282 - Agent - : Train Epoch: 10 [320/473 (69%)]	Loss: 0.229097 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:13:11,730 - Agent - : 
+Test set: acc: 95.6689, IOU: 67.2765, pre: 80.0347, rec: 80.8443, F1: 80.4375, kappa: 78.0024
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:13:12,397 - Agent - : Train Epoch: 11 [0/473 (0%)]	Loss: 0.228293 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:13:19,070 - Agent - : Train Epoch: 11 [160/473 (34%)]	Loss: 0.227646 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:13:26,263 - Agent - : Train Epoch: 11 [320/473 (69%)]	Loss: 0.216241 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:15:53,940 - Agent - : 
+Test set: acc: 96.0169, IOU: 69.6482, pre: 81.2514, rec: 82.9848, F1: 82.1090, kappa: 79.8682
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:15:54,583 - Agent - : Train Epoch: 12 [0/473 (0%)]	Loss: 0.210888 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:16:01,202 - Agent - : Train Epoch: 12 [160/473 (34%)]	Loss: 0.218319 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:16:08,098 - Agent - : Train Epoch: 12 [320/473 (69%)]	Loss: 0.203985 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:18:34,630 - Agent - : 
+Test set: acc: 96.0355, IOU: 68.9000, pre: 83.5182, rec: 79.7426, F1: 81.5867, kappa: 79.3667
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:18:39,832 - Agent - : Train Epoch: 13 [0/473 (0%)]	Loss: 0.201886 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:18:46,406 - Agent - : Train Epoch: 13 [160/473 (34%)]	Loss: 0.203652 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:18:53,976 - Agent - : Train Epoch: 13 [320/473 (69%)]	Loss: 0.195923 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:21:23,538 - Agent - : 
+Test set: acc: 95.9307, IOU: 68.3274, pre: 82.7201, rec: 79.7038, F1: 81.1840, kappa: 78.9035
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:21:24,225 - Agent - : Train Epoch: 14 [0/473 (0%)]	Loss: 0.191031 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:21:31,055 - Agent - : Train Epoch: 14 [160/473 (34%)]	Loss: 0.191039 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:21:37,768 - Agent - : Train Epoch: 14 [320/473 (69%)]	Loss: 0.184229 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:24:05,865 - Agent - : 
+Test set: acc: 95.8212, IOU: 67.0467, pre: 83.6091, rec: 77.1929, F1: 80.2730, kappa: 77.9402
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:24:06,533 - Agent - : Train Epoch: 15 [0/473 (0%)]	Loss: 0.183281 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:24:13,394 - Agent - : Train Epoch: 15 [160/473 (34%)]	Loss: 0.182108 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:24:20,316 - Agent - : Train Epoch: 15 [320/473 (69%)]	Loss: 0.171542 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:26:47,937 - Agent - : 
+Test set: acc: 96.0726, IOU: 68.0484, pre: 86.7510, rec: 75.9407, F1: 80.9867, kappa: 78.8076
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:26:48,588 - Agent - : Train Epoch: 16 [0/473 (0%)]	Loss: 0.169718 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:26:55,309 - Agent - : Train Epoch: 16 [160/473 (34%)]	Loss: 0.170759 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:27:01,898 - Agent - : Train Epoch: 16 [320/473 (69%)]	Loss: 0.163169 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:29:28,925 - Agent - : 
+Test set: acc: 96.7016, IOU: 72.8684, pre: 88.5737, rec: 80.4289, F1: 84.3050, kappa: 82.4670
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:29:34,092 - Agent - : Train Epoch: 17 [0/473 (0%)]	Loss: 0.158773 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:29:40,852 - Agent - : Train Epoch: 17 [160/473 (34%)]	Loss: 0.162759 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:29:47,553 - Agent - : Train Epoch: 17 [320/473 (69%)]	Loss: 0.161495 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:32:17,578 - Agent - : 
+Test set: acc: 96.1161, IOU: 71.1159, pre: 79.7221, rec: 86.8208, F1: 83.1202, kappa: 80.9303
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:32:18,244 - Agent - : Train Epoch: 18 [0/473 (0%)]	Loss: 0.154710 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:32:25,404 - Agent - : Train Epoch: 18 [160/473 (34%)]	Loss: 0.155280 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:32:32,168 - Agent - : Train Epoch: 18 [320/473 (69%)]	Loss: 0.151495 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:35:03,042 - Agent - : 
+Test set: acc: 95.8688, IOU: 68.2342, pre: 81.6744, rec: 80.5693, F1: 81.1181, kappa: 78.7989
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:35:03,705 - Agent - : Train Epoch: 19 [0/473 (0%)]	Loss: 0.150491 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:35:10,386 - Agent - : Train Epoch: 19 [160/473 (34%)]	Loss: 0.145381 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:35:17,252 - Agent - : Train Epoch: 19 [320/473 (69%)]	Loss: 0.140289 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:37:42,360 - Agent - : 
+Test set: acc: 96.4528, IOU: 71.8406, pre: 85.1140, rec: 82.1641, F1: 83.6131, kappa: 81.6249
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:37:43,052 - Agent - : Train Epoch: 20 [0/473 (0%)]	Loss: 0.134371 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:37:49,751 - Agent - : Train Epoch: 20 [160/473 (34%)]	Loss: 0.137045 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:37:56,369 - Agent - : Train Epoch: 20 [320/473 (69%)]	Loss: 0.133391 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:40:23,165 - Agent - : 
+Test set: acc: 96.3309, IOU: 72.8556, pre: 79.7353, rec: 89.4112, F1: 84.2965, kappa: 82.2270
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:40:28,823 - Agent - : Train Epoch: 21 [0/473 (0%)]	Loss: 0.128977 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:40:35,574 - Agent - : Train Epoch: 21 [160/473 (34%)]	Loss: 0.134178 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:40:43,290 - Agent - : Train Epoch: 21 [320/473 (69%)]	Loss: 0.133474 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:43:12,764 - Agent - : 
+Test set: acc: 96.0228, IOU: 70.0129, pre: 80.5031, rec: 84.3085, F1: 82.3619, kappa: 80.1219
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:43:13,446 - Agent - : Train Epoch: 22 [0/473 (0%)]	Loss: 0.124017 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:43:19,997 - Agent - : Train Epoch: 22 [160/473 (34%)]	Loss: 0.129027 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:43:26,577 - Agent - : Train Epoch: 22 [320/473 (69%)]	Loss: 0.130688 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:45:54,427 - Agent - : 
+Test set: acc: 96.1096, IOU: 69.3114, pre: 84.0862, rec: 79.7761, F1: 81.8744, kappa: 79.6970
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:45:55,085 - Agent - : Train Epoch: 23 [0/473 (0%)]	Loss: 0.119172 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:46:01,772 - Agent - : Train Epoch: 23 [160/473 (34%)]	Loss: 0.122954 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:46:08,464 - Agent - : Train Epoch: 23 [320/473 (69%)]	Loss: 0.121498 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:48:34,324 - Agent - : 
+Test set: acc: 97.0779, IOU: 76.3684, pre: 87.4842, rec: 85.7354, F1: 86.6010, kappa: 84.9613
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:48:34,991 - Agent - : Train Epoch: 24 [0/473 (0%)]	Loss: 0.115818 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:48:41,689 - Agent - : Train Epoch: 24 [160/473 (34%)]	Loss: 0.118282 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:48:48,336 - Agent - : Train Epoch: 24 [320/473 (69%)]	Loss: 0.114864 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:51:13,432 - Agent - : 
+Test set: acc: 96.9222, IOU: 75.9884, pre: 84.3751, rec: 88.4325, F1: 86.3561, kappa: 84.6227
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:51:18,675 - Agent - : Train Epoch: 25 [0/473 (0%)]	Loss: 0.109210 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:51:25,331 - Agent - : Train Epoch: 25 [160/473 (34%)]	Loss: 0.113393 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:51:32,148 - Agent - : Train Epoch: 25 [320/473 (69%)]	Loss: 0.113193 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:54:00,040 - Agent - : 
+Test set: acc: 96.8115, IOU: 73.7601, pre: 88.7406, rec: 81.3758, F1: 84.8988, kappa: 83.1201
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:54:00,731 - Agent - : Train Epoch: 26 [0/473 (0%)]	Loss: 0.100897 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:54:07,641 - Agent - : Train Epoch: 26 [160/473 (34%)]	Loss: 0.106089 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:54:15,010 - Agent - : Train Epoch: 26 [320/473 (69%)]	Loss: 0.106040 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:56:41,343 - Agent - : 
+Test set: acc: 96.9579, IOU: 74.6922, pre: 89.9214, rec: 81.5165, F1: 85.5129, kappa: 83.8180
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:56:42,157 - Agent - : Train Epoch: 27 [0/473 (0%)]	Loss: 0.103579 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:56:48,890 - Agent - : Train Epoch: 27 [160/473 (34%)]	Loss: 0.113667 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:56:55,702 - Agent - : Train Epoch: 27 [320/473 (69%)]	Loss: 0.105540 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:59:22,540 - Agent - : 
+Test set: acc: 97.1275, IOU: 76.8521, pre: 87.2375, rec: 86.5873, F1: 86.9112, kappa: 85.2979
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 11:59:23,184 - Agent - : Train Epoch: 28 [0/473 (0%)]	Loss: 0.100095 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:59:29,875 - Agent - : Train Epoch: 28 [160/473 (34%)]	Loss: 0.097379 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 11:59:36,608 - Agent - : Train Epoch: 28 [320/473 (69%)]	Loss: 0.100709 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:02:03,338 - Agent - : 
+Test set: acc: 97.1504, IOU: 77.0697, pre: 87.1422, rec: 86.9583, F1: 87.0501, kappa: 85.4492
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:02:08,624 - Agent - : Train Epoch: 29 [0/473 (0%)]	Loss: 0.093883 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:02:15,386 - Agent - : Train Epoch: 29 [160/473 (34%)]	Loss: 0.091864 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:02:22,204 - Agent - : Train Epoch: 29 [320/473 (69%)]	Loss: 0.098148 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:04:51,863 - Agent - : 
+Test set: acc: 96.9708, IOU: 74.9608, pre: 89.3263, rec: 82.3357, F1: 85.6887, kappa: 83.9980
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:04:52,542 - Agent - : Train Epoch: 30 [0/473 (0%)]	Loss: 0.088235 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:04:59,323 - Agent - : Train Epoch: 30 [160/473 (34%)]	Loss: 0.088843 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:05:05,955 - Agent - : Train Epoch: 30 [320/473 (69%)]	Loss: 0.094644 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:07:32,556 - Agent - : 
+Test set: acc: 97.1686, IOU: 76.0842, pre: 91.6111, rec: 81.7820, F1: 86.4180, kappa: 84.8432
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:07:33,258 - Agent - : Train Epoch: 31 [0/473 (0%)]	Loss: 0.088469 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:07:41,028 - Agent - : Train Epoch: 31 [160/473 (34%)]	Loss: 0.086498 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:07:47,769 - Agent - : Train Epoch: 31 [320/473 (69%)]	Loss: 0.090844 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:10:14,948 - Agent - : 
+Test set: acc: 97.0544, IOU: 76.7420, pre: 85.4814, rec: 88.2440, F1: 86.8407, kappa: 85.1828
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:10:15,583 - Agent - : Train Epoch: 32 [0/473 (0%)]	Loss: 0.097658 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:10:22,373 - Agent - : Train Epoch: 32 [160/473 (34%)]	Loss: 0.079441 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:10:29,096 - Agent - : Train Epoch: 32 [320/473 (69%)]	Loss: 0.088747 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:12:57,464 - Agent - : 
+Test set: acc: 97.1000, IOU: 77.1244, pre: 85.4640, rec: 88.7687, F1: 87.0850, kappa: 85.4523
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:13:02,740 - Agent - : Train Epoch: 33 [0/473 (0%)]	Loss: 0.084879 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:13:09,474 - Agent - : Train Epoch: 33 [160/473 (34%)]	Loss: 0.082614 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:13:16,063 - Agent - : Train Epoch: 33 [320/473 (69%)]	Loss: 0.086869 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:15:42,930 - Agent - : 
+Test set: acc: 97.0217, IOU: 76.9429, pre: 83.9313, rec: 90.2353, F1: 86.9692, kappa: 85.2904
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:15:43,648 - Agent - : Train Epoch: 34 [0/473 (0%)]	Loss: 0.081620 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:15:50,446 - Agent - : Train Epoch: 34 [160/473 (34%)]	Loss: 0.087003 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:15:58,195 - Agent - : Train Epoch: 34 [320/473 (69%)]	Loss: 0.089649 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:18:24,765 - Agent - : 
+Test set: acc: 97.0409, IOU: 76.6107, pre: 85.5500, rec: 87.9977, F1: 86.7565, kappa: 85.0913
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:18:25,474 - Agent - : Train Epoch: 35 [0/473 (0%)]	Loss: 0.075827 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:18:32,188 - Agent - : Train Epoch: 35 [160/473 (34%)]	Loss: 0.080457 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:18:38,878 - Agent - : Train Epoch: 35 [320/473 (69%)]	Loss: 0.081891 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:21:05,829 - Agent - : 
+Test set: acc: 96.9521, IOU: 73.9544, pre: 92.6355, rec: 78.5740, F1: 85.0273, kappa: 83.3434
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:21:06,482 - Agent - : Train Epoch: 36 [0/473 (0%)]	Loss: 0.074181 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:21:14,096 - Agent - : Train Epoch: 36 [160/473 (34%)]	Loss: 0.074515 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:21:20,709 - Agent - : Train Epoch: 36 [320/473 (69%)]	Loss: 0.079396 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:23:47,835 - Agent - : 
+Test set: acc: 97.3552, IOU: 78.3856, pre: 88.6975, rec: 87.0840, F1: 87.8834, kappa: 86.3991
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:23:52,864 - Agent - : Train Epoch: 37 [0/473 (0%)]	Loss: 0.069258 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:23:59,528 - Agent - : Train Epoch: 37 [160/473 (34%)]	Loss: 0.067030 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:24:06,265 - Agent - : Train Epoch: 37 [320/473 (69%)]	Loss: 0.078036 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:26:33,268 - Agent - : 
+Test set: acc: 96.6396, IOU: 74.1002, pre: 83.0624, rec: 87.2898, F1: 85.1236, kappa: 83.2308
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:26:33,970 - Agent - : Train Epoch: 38 [0/473 (0%)]	Loss: 0.068484 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:26:40,537 - Agent - : Train Epoch: 38 [160/473 (34%)]	Loss: 0.064694 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:26:47,129 - Agent - : Train Epoch: 38 [320/473 (69%)]	Loss: 0.080775 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:29:13,831 - Agent - : 
+Test set: acc: 96.8998, IOU: 76.1051, pre: 83.4380, rec: 89.6476, F1: 86.4314, kappa: 84.6840
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:29:14,472 - Agent - : Train Epoch: 39 [0/473 (0%)]	Loss: 0.069669 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:29:21,195 - Agent - : Train Epoch: 39 [160/473 (34%)]	Loss: 0.080058 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:29:28,893 - Agent - : Train Epoch: 39 [320/473 (69%)]	Loss: 0.079719 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:31:55,945 - Agent - : 
+Test set: acc: 96.8592, IOU: 74.9292, pre: 86.1145, rec: 85.2262, F1: 85.6680, kappa: 83.9044
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:31:56,607 - Agent - : Train Epoch: 40 [0/473 (0%)]	Loss: 0.088423 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:32:03,344 - Agent - : Train Epoch: 40 [160/473 (34%)]	Loss: 0.071311 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:32:10,040 - Agent - : Train Epoch: 40 [320/473 (69%)]	Loss: 0.077941 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:34:39,660 - Agent - : 
+Test set: acc: 96.9815, IOU: 75.1050, pre: 89.1280, rec: 82.6797, F1: 85.7828, kappa: 84.0970
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:34:44,678 - Agent - : Train Epoch: 41 [0/473 (0%)]	Loss: 0.067068 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:34:51,510 - Agent - : Train Epoch: 41 [160/473 (34%)]	Loss: 0.061588 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:34:58,272 - Agent - : Train Epoch: 41 [320/473 (69%)]	Loss: 0.073093 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:37:26,155 - Agent - : 
+Test set: acc: 97.2647, IOU: 78.0069, pre: 87.2084, rec: 88.0856, F1: 87.6448, kappa: 86.1069
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:37:26,821 - Agent - : Train Epoch: 42 [0/473 (0%)]	Loss: 0.064844 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:37:33,499 - Agent - : Train Epoch: 42 [160/473 (34%)]	Loss: 0.057755 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:37:40,150 - Agent - : Train Epoch: 42 [320/473 (69%)]	Loss: 0.069528 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:40:08,952 - Agent - : 
+Test set: acc: 96.7765, IOU: 75.8845, pre: 81.1723, rec: 92.0942, F1: 86.2890, kappa: 84.4708
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:40:09,643 - Agent - : Train Epoch: 43 [0/473 (0%)]	Loss: 0.060056 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:40:16,496 - Agent - : Train Epoch: 43 [160/473 (34%)]	Loss: 0.055424 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:40:23,170 - Agent - : Train Epoch: 43 [320/473 (69%)]	Loss: 0.069546 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:42:50,485 - Agent - : 
+Test set: acc: 97.2266, IOU: 77.1158, pre: 89.4245, rec: 84.8544, F1: 87.0795, kappa: 85.5273
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:42:51,180 - Agent - : Train Epoch: 44 [0/473 (0%)]	Loss: 0.062244 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:42:58,872 - Agent - : Train Epoch: 44 [160/473 (34%)]	Loss: 0.055917 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:43:05,495 - Agent - : Train Epoch: 44 [320/473 (69%)]	Loss: 0.068298 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:45:31,666 - Agent - : 
+Test set: acc: 97.1934, IOU: 77.6300, pre: 86.4085, rec: 88.4277, F1: 87.4064, kappa: 85.8274
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:45:36,800 - Agent - : Train Epoch: 45 [0/473 (0%)]	Loss: 0.060916 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:45:43,495 - Agent - : Train Epoch: 45 [160/473 (34%)]	Loss: 0.055794 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:45:50,217 - Agent - : Train Epoch: 45 [320/473 (69%)]	Loss: 0.063120 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:48:17,662 - Agent - : 
+Test set: acc: 97.2688, IOU: 78.5042, pre: 85.4987, rec: 90.5626, F1: 87.9578, kappa: 86.4190
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:48:18,347 - Agent - : Train Epoch: 46 [0/473 (0%)]	Loss: 0.054034 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:48:24,852 - Agent - : Train Epoch: 46 [160/473 (34%)]	Loss: 0.050454 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:48:31,438 - Agent - : Train Epoch: 46 [320/473 (69%)]	Loss: 0.061739 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:51:00,073 - Agent - : 
+Test set: acc: 97.4797, IOU: 79.2491, pre: 89.4832, rec: 87.3885, F1: 88.4234, kappa: 87.0096
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:51:00,809 - Agent - : Train Epoch: 47 [0/473 (0%)]	Loss: 0.052526 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:51:07,606 - Agent - : Train Epoch: 47 [160/473 (34%)]	Loss: 0.047240 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:51:15,242 - Agent - : Train Epoch: 47 [320/473 (69%)]	Loss: 0.061634 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:53:43,944 - Agent - : 
+Test set: acc: 97.2991, IOU: 78.6029, pre: 86.0491, rec: 90.0828, F1: 88.0198, kappa: 86.4986
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:53:44,617 - Agent - : Train Epoch: 48 [0/473 (0%)]	Loss: 0.055678 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:53:51,469 - Agent - : Train Epoch: 48 [160/473 (34%)]	Loss: 0.046039 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:53:58,316 - Agent - : Train Epoch: 48 [320/473 (69%)]	Loss: 0.059204 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:56:28,370 - Agent - : 
+Test set: acc: 96.9825, IOU: 76.9773, pre: 82.8225, rec: 91.6017, F1: 86.9912, kappa: 85.2893
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:56:33,302 - Agent - : Train Epoch: 49 [0/473 (0%)]	Loss: 0.052798 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:56:40,105 - Agent - : Train Epoch: 49 [160/473 (34%)]	Loss: 0.046264 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:56:47,074 - Agent - : Train Epoch: 49 [320/473 (69%)]	Loss: 0.062665 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:59:14,545 - Agent - : 
+Test set: acc: 97.3598, IOU: 78.3614, pre: 88.9548, rec: 86.8076, F1: 87.8681, kappa: 86.3871
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 12:59:15,177 - Agent - : Train Epoch: 50 [0/473 (0%)]	Loss: 0.051730 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:59:21,890 - Agent - : Train Epoch: 50 [160/473 (34%)]	Loss: 0.047636 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 12:59:28,584 - Agent - : Train Epoch: 50 [320/473 (69%)]	Loss: 0.061285 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:01:55,276 - Agent - : 
+Test set: acc: 97.0641, IOU: 75.7668, pre: 89.2888, rec: 83.3418, F1: 86.2128, kappa: 84.5721
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:01:55,938 - Agent - : Train Epoch: 51 [0/473 (0%)]	Loss: 0.054026 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:02:02,616 - Agent - : Train Epoch: 51 [160/473 (34%)]	Loss: 0.046239 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:02:09,194 - Agent - : Train Epoch: 51 [320/473 (69%)]	Loss: 0.058554 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:04:34,876 - Agent - : 
+Test set: acc: 97.0523, IOU: 77.1998, pre: 83.9081, rec: 90.6158, F1: 87.1331, kappa: 85.4714
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:04:35,567 - Agent - : Train Epoch: 52 [0/473 (0%)]	Loss: 0.052219 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:04:42,461 - Agent - : Train Epoch: 52 [160/473 (34%)]	Loss: 0.042132 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:04:49,929 - Agent - : Train Epoch: 52 [320/473 (69%)]	Loss: 0.055595 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:07:16,080 - Agent - : 
+Test set: acc: 97.2918, IOU: 78.3476, pre: 86.7754, rec: 88.9709, F1: 87.8594, kappa: 86.3356
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:07:21,437 - Agent - : Train Epoch: 53 [0/473 (0%)]	Loss: 0.046559 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:07:27,980 - Agent - : Train Epoch: 53 [160/473 (34%)]	Loss: 0.043561 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:07:34,633 - Agent - : Train Epoch: 53 [320/473 (69%)]	Loss: 0.056870 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:10:00,533 - Agent - : 
+Test set: acc: 97.3221, IOU: 78.0338, pre: 88.9927, rec: 86.3701, F1: 87.6618, kappa: 86.1603
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:10:01,177 - Agent - : Train Epoch: 54 [0/473 (0%)]	Loss: 0.048258 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:10:07,947 - Agent - : Train Epoch: 54 [160/473 (34%)]	Loss: 0.039763 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:10:14,590 - Agent - : Train Epoch: 54 [320/473 (69%)]	Loss: 0.054165 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:12:41,572 - Agent - : 
+Test set: acc: 97.1634, IOU: 77.7335, pre: 85.1626, rec: 89.9100, F1: 87.4720, kappa: 85.8739
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:12:42,271 - Agent - : Train Epoch: 55 [0/473 (0%)]	Loss: 0.046818 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:12:48,952 - Agent - : Train Epoch: 55 [160/473 (34%)]	Loss: 0.038874 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:12:55,572 - Agent - : Train Epoch: 55 [320/473 (69%)]	Loss: 0.053548 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:15:23,875 - Agent - : 
+Test set: acc: 96.8350, IOU: 76.2321, pre: 81.5152, rec: 92.1645, F1: 86.5133, kappa: 84.7281
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:15:24,562 - Agent - : Train Epoch: 56 [0/473 (0%)]	Loss: 0.046692 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:15:31,475 - Agent - : Train Epoch: 56 [160/473 (34%)]	Loss: 0.039626 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:15:38,174 - Agent - : Train Epoch: 56 [320/473 (69%)]	Loss: 0.053918 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:18:04,245 - Agent - : 
+Test set: acc: 97.1588, IOU: 77.1034, pre: 87.2791, rec: 86.8651, F1: 87.0716, kappa: 85.4757
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:18:09,715 - Agent - : Train Epoch: 57 [0/473 (0%)]	Loss: 0.046403 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:18:17,314 - Agent - : Train Epoch: 57 [160/473 (34%)]	Loss: 0.044471 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:18:23,958 - Agent - : Train Epoch: 57 [320/473 (69%)]	Loss: 0.052928 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:20:51,950 - Agent - : 
+Test set: acc: 97.2714, IOU: 77.4910, pre: 89.4479, rec: 85.2876, F1: 87.3182, kappa: 85.7904
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:20:52,616 - Agent - : Train Epoch: 58 [0/473 (0%)]	Loss: 0.044377 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:20:59,226 - Agent - : Train Epoch: 58 [160/473 (34%)]	Loss: 0.038515 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:21:05,977 - Agent - : Train Epoch: 58 [320/473 (69%)]	Loss: 0.053299 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:23:32,777 - Agent - : 
+Test set: acc: 97.0229, IOU: 77.1133, pre: 83.4186, rec: 91.0731, F1: 87.0779, kappa: 85.3992
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:23:33,451 - Agent - : Train Epoch: 59 [0/473 (0%)]	Loss: 0.043756 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:23:40,067 - Agent - : Train Epoch: 59 [160/473 (34%)]	Loss: 0.037058 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:23:46,730 - Agent - : Train Epoch: 59 [320/473 (69%)]	Loss: 0.050242 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:26:12,279 - Agent - : 
+Test set: acc: 96.7522, IOU: 75.4779, pre: 81.7603, rec: 90.7602, F1: 86.0255, kappa: 84.1938
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:26:12,960 - Agent - : Train Epoch: 60 [0/473 (0%)]	Loss: 0.046949 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:26:19,845 - Agent - : Train Epoch: 60 [160/473 (34%)]	Loss: 0.038329 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:26:26,687 - Agent - : Train Epoch: 60 [320/473 (69%)]	Loss: 0.051414 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:28:54,556 - Agent - : 
+Test set: acc: 97.3028, IOU: 78.0950, pre: 88.1003, rec: 87.3041, F1: 87.7004, kappa: 86.1857
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:28:59,638 - Agent - : Train Epoch: 61 [0/473 (0%)]	Loss: 0.046506 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:29:06,449 - Agent - : Train Epoch: 61 [160/473 (34%)]	Loss: 0.036840 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:29:13,112 - Agent - : Train Epoch: 61 [320/473 (69%)]	Loss: 0.050393 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:31:39,940 - Agent - : 
+Test set: acc: 97.1615, IOU: 77.3845, pre: 86.3372, rec: 88.1835, F1: 87.2506, kappa: 85.6537
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:31:40,598 - Agent - : Train Epoch: 62 [0/473 (0%)]	Loss: 0.043058 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:31:48,201 - Agent - : Train Epoch: 62 [160/473 (34%)]	Loss: 0.035325 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:31:54,719 - Agent - : Train Epoch: 62 [320/473 (69%)]	Loss: 0.050804 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:34:21,188 - Agent - : 
+Test set: acc: 96.6040, IOU: 74.3382, pre: 81.5919, rec: 89.3183, F1: 85.2804, kappa: 83.3655
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:34:21,879 - Agent - : Train Epoch: 63 [0/473 (0%)]	Loss: 0.046845 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:34:28,579 - Agent - : Train Epoch: 63 [160/473 (34%)]	Loss: 0.036045 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:34:35,225 - Agent - : Train Epoch: 63 [320/473 (69%)]	Loss: 0.053346 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:37:01,174 - Agent - : 
+Test set: acc: 97.0704, IOU: 75.5783, pre: 90.2293, rec: 82.3152, F1: 86.0907, kappa: 84.4574
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:37:01,860 - Agent - : Train Epoch: 64 [0/473 (0%)]	Loss: 0.046715 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:37:08,523 - Agent - : Train Epoch: 64 [160/473 (34%)]	Loss: 0.038943 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:37:15,099 - Agent - : Train Epoch: 64 [320/473 (69%)]	Loss: 0.049555 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:39:39,027 - Agent - : 
+Test set: acc: 96.8683, IOU: 73.8466, pre: 90.2056, rec: 80.2839, F1: 84.9560, kappa: 83.2149
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:39:44,136 - Agent - : Train Epoch: 65 [0/473 (0%)]	Loss: 0.042389 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:39:50,771 - Agent - : Train Epoch: 65 [160/473 (34%)]	Loss: 0.034240 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:39:57,370 - Agent - : Train Epoch: 65 [320/473 (69%)]	Loss: 0.051754 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:42:25,025 - Agent - : 
+Test set: acc: 96.8734, IOU: 75.1486, pre: 85.7827, rec: 85.8398, F1: 85.8113, kappa: 84.0544
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:42:25,700 - Agent - : Train Epoch: 66 [0/473 (0%)]	Loss: 0.041339 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:42:32,651 - Agent - : Train Epoch: 66 [160/473 (34%)]	Loss: 0.034196 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:42:39,359 - Agent - : Train Epoch: 66 [320/473 (69%)]	Loss: 0.052039 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:45:05,143 - Agent - : 
+Test set: acc: 97.3084, IOU: 77.9505, pre: 88.8620, rec: 86.3912, F1: 87.6092, kappa: 86.0997
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:45:05,798 - Agent - : Train Epoch: 67 [0/473 (0%)]	Loss: 0.040234 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:45:13,077 - Agent - : Train Epoch: 67 [160/473 (34%)]	Loss: 0.032105 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:45:19,855 - Agent - : Train Epoch: 67 [320/473 (69%)]	Loss: 0.048573 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:47:45,757 - Agent - : 
+Test set: acc: 97.2470, IOU: 77.3590, pre: 89.1477, rec: 85.4014, F1: 87.2343, kappa: 85.6923
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:47:46,435 - Agent - : Train Epoch: 68 [0/473 (0%)]	Loss: 0.040727 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:47:53,253 - Agent - : Train Epoch: 68 [160/473 (34%)]	Loss: 0.032113 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:47:59,980 - Agent - : Train Epoch: 68 [320/473 (69%)]	Loss: 0.047789 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:50:26,832 - Agent - : 
+Test set: acc: 97.1304, IOU: 77.3972, pre: 85.3861, rec: 89.2153, F1: 87.2587, kappa: 85.6427
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:50:32,202 - Agent - : Train Epoch: 69 [0/473 (0%)]	Loss: 0.038735 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:50:39,036 - Agent - : Train Epoch: 69 [160/473 (34%)]	Loss: 0.031940 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:50:45,719 - Agent - : Train Epoch: 69 [320/473 (69%)]	Loss: 0.048839 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:53:13,444 - Agent - : 
+Test set: acc: 97.0523, IOU: 77.1030, pre: 84.2215, rec: 90.1209, F1: 87.0714, kappa: 85.4100
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:53:14,095 - Agent - : Train Epoch: 70 [0/473 (0%)]	Loss: 0.037718 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:53:20,773 - Agent - : Train Epoch: 70 [160/473 (34%)]	Loss: 0.030576 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:53:27,512 - Agent - : Train Epoch: 70 [320/473 (69%)]	Loss: 0.048592 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:55:52,256 - Agent - : 
+Test set: acc: 97.3642, IOU: 77.9682, pre: 90.7616, rec: 84.6893, F1: 87.6204, kappa: 86.1474
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:55:52,923 - Agent - : Train Epoch: 71 [0/473 (0%)]	Loss: 0.037985 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:55:59,460 - Agent - : Train Epoch: 71 [160/473 (34%)]	Loss: 0.030872 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:56:06,034 - Agent - : Train Epoch: 71 [320/473 (69%)]	Loss: 0.044619 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:58:30,825 - Agent - : 
+Test set: acc: 97.2003, IOU: 77.3971, pre: 87.4787, rec: 87.0396, F1: 87.2586, kappa: 85.6860
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 13:58:31,490 - Agent - : Train Epoch: 72 [0/473 (0%)]	Loss: 0.041956 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:58:38,289 - Agent - : Train Epoch: 72 [160/473 (34%)]	Loss: 0.031787 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 13:58:45,788 - Agent - : Train Epoch: 72 [320/473 (69%)]	Loss: 0.044720 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:01:11,352 - Agent - : 
+Test set: acc: 97.2220, IOU: 77.6126, pre: 87.3520, rec: 87.4388, F1: 87.3954, kappa: 85.8344
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:01:16,804 - Agent - : Train Epoch: 73 [0/473 (0%)]	Loss: 0.037359 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:01:23,496 - Agent - : Train Epoch: 73 [160/473 (34%)]	Loss: 0.030086 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:01:30,293 - Agent - : Train Epoch: 73 [320/473 (69%)]	Loss: 0.044986 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:03:56,975 - Agent - : 
+Test set: acc: 97.1775, IOU: 76.8280, pre: 88.9168, rec: 84.9646, F1: 86.8958, kappa: 85.3151
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:03:57,641 - Agent - : Train Epoch: 74 [0/473 (0%)]	Loss: 0.038809 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:04:04,888 - Agent - : Train Epoch: 74 [160/473 (34%)]	Loss: 0.028679 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:04:12,283 - Agent - : Train Epoch: 74 [320/473 (69%)]	Loss: 0.050365 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:06:38,371 - Agent - : 
+Test set: acc: 96.9373, IOU: 76.6286, pre: 82.7710, rec: 91.1707, F1: 86.7680, kappa: 85.0408
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:06:39,068 - Agent - : Train Epoch: 75 [0/473 (0%)]	Loss: 0.041491 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:06:45,752 - Agent - : Train Epoch: 75 [160/473 (34%)]	Loss: 0.028887 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:06:52,477 - Agent - : Train Epoch: 75 [320/473 (69%)]	Loss: 0.047599 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:09:17,850 - Agent - : 
+Test set: acc: 96.9657, IOU: 76.5766, pre: 83.6437, rec: 90.0630, F1: 86.7347, kappa: 85.0243
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:09:18,543 - Agent - : Train Epoch: 76 [0/473 (0%)]	Loss: 0.040842 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:09:25,200 - Agent - : Train Epoch: 76 [160/473 (34%)]	Loss: 0.032165 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:09:32,264 - Agent - : Train Epoch: 76 [320/473 (69%)]	Loss: 0.050264 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:11:56,361 - Agent - : 
+Test set: acc: 96.9297, IOU: 75.1140, pre: 87.5037, rec: 84.1397, F1: 85.7887, kappa: 84.0683
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:12:01,596 - Agent - : Train Epoch: 77 [0/473 (0%)]	Loss: 0.042618 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:12:08,304 - Agent - : Train Epoch: 77 [160/473 (34%)]	Loss: 0.034934 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:12:15,868 - Agent - : Train Epoch: 77 [320/473 (69%)]	Loss: 0.048513 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:14:43,149 - Agent - : 
+Test set: acc: 97.1488, IOU: 76.5405, pre: 89.0860, rec: 84.4604, F1: 86.7116, kappa: 85.1159
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:14:43,845 - Agent - : Train Epoch: 78 [0/473 (0%)]	Loss: 0.039742 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:14:50,469 - Agent - : Train Epoch: 78 [160/473 (34%)]	Loss: 0.032745 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:14:57,193 - Agent - : Train Epoch: 78 [320/473 (69%)]	Loss: 0.045247 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:17:19,937 - Agent - : 
+Test set: acc: 97.0312, IOU: 75.9452, pre: 87.5939, rec: 85.0986, F1: 86.3282, kappa: 84.6635
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:17:20,608 - Agent - : Train Epoch: 79 [0/473 (0%)]	Loss: 0.040251 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:17:28,017 - Agent - : Train Epoch: 79 [160/473 (34%)]	Loss: 0.032711 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:17:34,832 - Agent - : Train Epoch: 79 [320/473 (69%)]	Loss: 0.048582 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:20:00,359 - Agent - : 
+Test set: acc: 96.6651, IOU: 73.0043, pre: 87.0693, rec: 81.8819, F1: 84.3960, kappa: 82.5310
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:20:01,031 - Agent - : Train Epoch: 80 [0/473 (0%)]	Loss: 0.041944 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:20:07,834 - Agent - : Train Epoch: 80 [160/473 (34%)]	Loss: 0.029868 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:20:14,342 - Agent - : Train Epoch: 80 [320/473 (69%)]	Loss: 0.046926 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:22:38,349 - Agent - : 
+Test set: acc: 96.8499, IOU: 74.9093, pre: 85.9253, rec: 85.3864, F1: 85.6550, kappa: 83.8858
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:22:43,614 - Agent - : Train Epoch: 81 [0/473 (0%)]	Loss: 0.037609 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:22:50,266 - Agent - : Train Epoch: 81 [160/473 (34%)]	Loss: 0.028057 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:22:56,898 - Agent - : Train Epoch: 81 [320/473 (69%)]	Loss: 0.045771 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:25:25,065 - Agent - : 
+Test set: acc: 97.1929, IOU: 77.2938, pre: 87.6345, rec: 86.7557, F1: 87.1929, kappa: 85.6167
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:25:25,746 - Agent - : Train Epoch: 82 [0/473 (0%)]	Loss: 0.036350 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:25:32,352 - Agent - : Train Epoch: 82 [160/473 (34%)]	Loss: 0.028122 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:25:39,134 - Agent - : Train Epoch: 82 [320/473 (69%)]	Loss: 0.048269 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:28:04,339 - Agent - : 
+Test set: acc: 96.7697, IOU: 75.4473, pre: 82.2494, rec: 90.1214, F1: 86.0056, kappa: 84.1841
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:28:04,966 - Agent - : Train Epoch: 83 [0/473 (0%)]	Loss: 0.040244 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:28:11,816 - Agent - : Train Epoch: 83 [160/473 (34%)]	Loss: 0.032113 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:28:18,493 - Agent - : Train Epoch: 83 [320/473 (69%)]	Loss: 0.045244 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:30:43,827 - Agent - : 
+Test set: acc: 96.5643, IOU: 74.5567, pre: 80.1769, rec: 91.4062, F1: 85.4241, kappa: 83.4862
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:30:44,464 - Agent - : Train Epoch: 84 [0/473 (0%)]	Loss: 0.037896 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:30:51,110 - Agent - : Train Epoch: 84 [160/473 (34%)]	Loss: 0.028931 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:30:58,412 - Agent - : Train Epoch: 84 [320/473 (69%)]	Loss: 0.045836 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:33:23,447 - Agent - : 
+Test set: acc: 97.2323, IOU: 77.4951, pre: 88.1279, rec: 86.5284, F1: 87.3208, kappa: 85.7676
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:33:28,289 - Agent - : Train Epoch: 85 [0/473 (0%)]	Loss: 0.039660 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:33:34,968 - Agent - : Train Epoch: 85 [160/473 (34%)]	Loss: 0.030113 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:33:41,643 - Agent - : Train Epoch: 85 [320/473 (69%)]	Loss: 0.045461 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:36:08,457 - Agent - : 
+Test set: acc: 97.1719, IOU: 77.1436, pre: 87.5366, rec: 86.6623, F1: 87.0973, kappa: 85.5092
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:36:09,135 - Agent - : Train Epoch: 86 [0/473 (0%)]	Loss: 0.039250 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:36:15,660 - Agent - : Train Epoch: 86 [160/473 (34%)]	Loss: 0.028363 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:36:22,568 - Agent - : Train Epoch: 86 [320/473 (69%)]	Loss: 0.051996 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:38:47,962 - Agent - : 
+Test set: acc: 96.7837, IOU: 75.7994, pre: 81.5709, rec: 91.4625, F1: 86.2340, kappa: 84.4198
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:38:48,742 - Agent - : Train Epoch: 87 [0/473 (0%)]	Loss: 0.044581 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:38:55,504 - Agent - : Train Epoch: 87 [160/473 (34%)]	Loss: 0.040997 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:39:02,983 - Agent - : Train Epoch: 87 [320/473 (69%)]	Loss: 0.048554 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:41:28,333 - Agent - : 
+Test set: acc: 97.1567, IOU: 77.5819, pre: 85.4995, rec: 89.3365, F1: 87.3759, kappa: 85.7747
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:41:28,960 - Agent - : Train Epoch: 88 [0/473 (0%)]	Loss: 0.042572 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:41:35,504 - Agent - : Train Epoch: 88 [160/473 (34%)]	Loss: 0.043425 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:41:42,253 - Agent - : Train Epoch: 88 [320/473 (69%)]	Loss: 0.049082 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:44:06,285 - Agent - : 
+Test set: acc: 97.0062, IOU: 76.6645, pre: 84.4208, rec: 89.2983, F1: 86.7911, kappa: 85.1044
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:44:11,612 - Agent - : Train Epoch: 89 [0/473 (0%)]	Loss: 0.045634 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:44:18,413 - Agent - : Train Epoch: 89 [160/473 (34%)]	Loss: 0.032604 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:44:25,920 - Agent - : Train Epoch: 89 [320/473 (69%)]	Loss: 0.047386 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:46:53,383 - Agent - : 
+Test set: acc: 97.5014, IOU: 78.8358, pre: 92.1623, rec: 84.5011, F1: 88.1656, kappa: 86.7718
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:46:54,058 - Agent - : Train Epoch: 90 [0/473 (0%)]	Loss: 0.039773 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:47:00,643 - Agent - : Train Epoch: 90 [160/473 (34%)]	Loss: 0.029100 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:47:07,297 - Agent - : Train Epoch: 90 [320/473 (69%)]	Loss: 0.047587 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:49:35,170 - Agent - : 
+Test set: acc: 96.9298, IOU: 76.3256, pre: 83.5113, rec: 89.8688, F1: 86.5735, kappa: 84.8428
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:49:35,850 - Agent - : Train Epoch: 91 [0/473 (0%)]	Loss: 0.040662 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:49:42,587 - Agent - : Train Epoch: 91 [160/473 (34%)]	Loss: 0.028681 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:49:49,498 - Agent - : Train Epoch: 91 [320/473 (69%)]	Loss: 0.043884 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:52:16,169 - Agent - : 
+Test set: acc: 96.8774, IOU: 76.2936, pre: 82.3241, rec: 91.2397, F1: 86.5529, kappa: 84.7918
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:52:16,818 - Agent - : Train Epoch: 92 [0/473 (0%)]	Loss: 0.036426 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:52:23,437 - Agent - : Train Epoch: 92 [160/473 (34%)]	Loss: 0.028127 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:52:30,134 - Agent - : Train Epoch: 92 [320/473 (69%)]	Loss: 0.042730 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:54:56,652 - Agent - : 
+Test set: acc: 97.3969, IOU: 78.8696, pre: 88.1607, rec: 88.2127, F1: 88.1867, kappa: 86.7240
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:55:01,926 - Agent - : Train Epoch: 93 [0/473 (0%)]	Loss: 0.034821 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:55:08,620 - Agent - : Train Epoch: 93 [160/473 (34%)]	Loss: 0.025863 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:55:15,327 - Agent - : Train Epoch: 93 [320/473 (69%)]	Loss: 0.042108 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:57:44,346 - Agent - : 
+Test set: acc: 97.4144, IOU: 79.2169, pre: 87.3534, rec: 89.4789, F1: 88.4034, kappa: 86.9486
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 14:57:45,011 - Agent - : Train Epoch: 94 [0/473 (0%)]	Loss: 0.033659 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:57:52,422 - Agent - : Train Epoch: 94 [160/473 (34%)]	Loss: 0.023820 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 14:57:59,125 - Agent - : Train Epoch: 94 [320/473 (69%)]	Loss: 0.040218 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:00:26,930 - Agent - : 
+Test set: acc: 97.4402, IOU: 79.1867, pre: 88.3454, rec: 88.4238, F1: 88.3846, kappa: 86.9462
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:00:27,636 - Agent - : Train Epoch: 95 [0/473 (0%)]	Loss: 0.032168 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:00:34,383 - Agent - : Train Epoch: 95 [160/473 (34%)]	Loss: 0.024352 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:00:41,050 - Agent - : Train Epoch: 95 [320/473 (69%)]	Loss: 0.039563 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:03:08,476 - Agent - : 
+Test set: acc: 97.4384, IOU: 79.0194, pre: 88.9777, rec: 87.5936, F1: 88.2803, kappa: 86.8424
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:03:09,187 - Agent - : Train Epoch: 96 [0/473 (0%)]	Loss: 0.032770 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:03:15,902 - Agent - : Train Epoch: 96 [160/473 (34%)]	Loss: 0.024232 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:03:22,598 - Agent - : Train Epoch: 96 [320/473 (69%)]	Loss: 0.039440 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:05:48,960 - Agent - : 
+Test set: acc: 97.3695, IOU: 78.5459, pre: 88.5363, rec: 87.4385, F1: 87.9840, kappa: 86.5071
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:05:54,215 - Agent - : Train Epoch: 97 [0/473 (0%)]	Loss: 0.033576 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:06:00,872 - Agent - : Train Epoch: 97 [160/473 (34%)]	Loss: 0.024410 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:06:07,564 - Agent - : Train Epoch: 97 [320/473 (69%)]	Loss: 0.038829 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:08:35,832 - Agent - : 
+Test set: acc: 97.3122, IOU: 77.7191, pre: 89.9356, rec: 85.1225, F1: 87.4629, kappa: 85.9589
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:08:36,497 - Agent - : Train Epoch: 98 [0/473 (0%)]	Loss: 0.035177 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:08:43,093 - Agent - : Train Epoch: 98 [160/473 (34%)]	Loss: 0.024381 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:08:49,719 - Agent - : Train Epoch: 98 [320/473 (69%)]	Loss: 0.040903 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:11:13,757 - Agent - : 
+Test set: acc: 97.0507, IOU: 75.2219, pre: 90.9722, rec: 81.2900, F1: 85.8590, kappa: 84.2185
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:11:14,454 - Agent - : Train Epoch: 99 [0/473 (0%)]	Loss: 0.037636 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:11:21,940 - Agent - : Train Epoch: 99 [160/473 (34%)]	Loss: 0.023868 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:11:28,716 - Agent - : Train Epoch: 99 [320/473 (69%)]	Loss: 0.046027 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:13:55,424 - Agent - : 
+Test set: acc: 96.8870, IOU: 73.7778, pre: 91.0820, rec: 79.5222, F1: 84.9105, kappa: 83.1838
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:13:56,097 - Agent - : Train Epoch: 100 [0/473 (0%)]	Loss: 0.035846 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:14:02,824 - Agent - : Train Epoch: 100 [160/473 (34%)]	Loss: 0.025058 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:14:09,441 - Agent - : Train Epoch: 100 [320/473 (69%)]	Loss: 0.048561 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:16:35,372 - Agent - : 
+Test set: acc: 96.9410, IOU: 74.9517, pre: 88.4246, rec: 83.1058, F1: 85.6827, kappa: 83.9721
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:16:40,411 - Agent - : Train Epoch: 101 [0/473 (0%)]	Loss: 0.034732 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:16:47,134 - Agent - : Train Epoch: 101 [160/473 (34%)]	Loss: 0.027223 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:16:53,902 - Agent - : Train Epoch: 101 [320/473 (69%)]	Loss: 0.047664 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:19:21,374 - Agent - : 
+Test set: acc: 97.2758, IOU: 77.7872, pre: 88.4151, rec: 86.6154, F1: 87.5060, kappa: 85.9774
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:19:22,098 - Agent - : Train Epoch: 102 [0/473 (0%)]	Loss: 0.033917 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:19:28,886 - Agent - : Train Epoch: 102 [160/473 (34%)]	Loss: 0.027071 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:19:35,644 - Agent - : Train Epoch: 102 [320/473 (69%)]	Loss: 0.043888 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:22:03,381 - Agent - : 
+Test set: acc: 97.2696, IOU: 77.7796, pre: 88.2416, rec: 86.7731, F1: 87.5012, kappa: 85.9687
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:22:04,079 - Agent - : Train Epoch: 103 [0/473 (0%)]	Loss: 0.035837 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:22:10,779 - Agent - : Train Epoch: 103 [160/473 (34%)]	Loss: 0.027772 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:22:17,444 - Agent - : Train Epoch: 103 [320/473 (69%)]	Loss: 0.041403 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:24:43,851 - Agent - : 
+Test set: acc: 96.9480, IOU: 76.5247, pre: 83.3537, rec: 90.3292, F1: 86.7014, kappa: 84.9807
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:24:44,498 - Agent - : Train Epoch: 104 [0/473 (0%)]	Loss: 0.038762 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:24:52,100 - Agent - : Train Epoch: 104 [160/473 (34%)]	Loss: 0.025620 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:24:58,898 - Agent - : Train Epoch: 104 [320/473 (69%)]	Loss: 0.042491 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:27:25,350 - Agent - : 
+Test set: acc: 96.9836, IOU: 76.5519, pre: 84.1849, rec: 89.4102, F1: 86.7189, kappa: 85.0192
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:27:30,886 - Agent - : Train Epoch: 105 [0/473 (0%)]	Loss: 0.037058 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:27:37,655 - Agent - : Train Epoch: 105 [160/473 (34%)]	Loss: 0.023946 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:27:44,383 - Agent - : Train Epoch: 105 [320/473 (69%)]	Loss: 0.047203 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:30:12,859 - Agent - : 
+Test set: acc: 97.1722, IOU: 77.5875, pre: 85.9290, rec: 88.8798, F1: 87.3795, kappa: 85.7877
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:30:13,541 - Agent - : Train Epoch: 106 [0/473 (0%)]	Loss: 0.033425 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:30:20,135 - Agent - : Train Epoch: 106 [160/473 (34%)]	Loss: 0.026558 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:30:26,870 - Agent - : Train Epoch: 106 [320/473 (69%)]	Loss: 0.043561 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:32:53,934 - Agent - : 
+Test set: acc: 97.2391, IOU: 77.8952, pre: 86.8276, rec: 88.3339, F1: 87.5742, kappa: 86.0214
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:32:54,590 - Agent - : Train Epoch: 107 [0/473 (0%)]	Loss: 0.033918 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:33:01,231 - Agent - : Train Epoch: 107 [160/473 (34%)]	Loss: 0.025005 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:33:08,527 - Agent - : Train Epoch: 107 [320/473 (69%)]	Loss: 0.039611 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:35:34,926 - Agent - : 
+Test set: acc: 97.2420, IOU: 77.6612, pre: 87.8037, rec: 87.0519, F1: 87.4262, kappa: 85.8774
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:35:35,664 - Agent - : Train Epoch: 108 [0/473 (0%)]	Loss: 0.034318 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:35:42,493 - Agent - : Train Epoch: 108 [160/473 (34%)]	Loss: 0.022647 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:35:49,317 - Agent - : Train Epoch: 108 [320/473 (69%)]	Loss: 0.040557 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:38:16,675 - Agent - : 
+Test set: acc: 97.1578, IOU: 77.2032, pre: 86.8831, rec: 87.3888, F1: 87.1352, kappa: 85.5377
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:38:22,026 - Agent - : Train Epoch: 109 [0/473 (0%)]	Loss: 0.032061 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:38:28,703 - Agent - : Train Epoch: 109 [160/473 (34%)]	Loss: 0.021881 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:38:35,349 - Agent - : Train Epoch: 109 [320/473 (69%)]	Loss: 0.041776 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:41:03,864 - Agent - : 
+Test set: acc: 97.2629, IOU: 77.8391, pre: 87.7922, rec: 87.2868, F1: 87.5388, kappa: 86.0014
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:41:04,556 - Agent - : Train Epoch: 110 [0/473 (0%)]	Loss: 0.030261 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:41:11,225 - Agent - : Train Epoch: 110 [160/473 (34%)]	Loss: 0.023509 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:41:17,801 - Agent - : Train Epoch: 110 [320/473 (69%)]	Loss: 0.038446 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:43:44,958 - Agent - : 
+Test set: acc: 97.3157, IOU: 78.1359, pre: 88.3672, rec: 87.0944, F1: 87.7262, kappa: 86.2194
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:43:45,669 - Agent - : Train Epoch: 111 [0/473 (0%)]	Loss: 0.032981 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:43:52,535 - Agent - : Train Epoch: 111 [160/473 (34%)]	Loss: 0.023174 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:43:59,265 - Agent - : Train Epoch: 111 [320/473 (69%)]	Loss: 0.038077 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:46:24,953 - Agent - : 
+Test set: acc: 97.2413, IOU: 77.6843, pre: 87.6923, rec: 87.1908, F1: 87.4408, kappa: 85.8913
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:46:25,618 - Agent - : Train Epoch: 112 [0/473 (0%)]	Loss: 0.032006 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:46:32,447 - Agent - : Train Epoch: 112 [160/473 (34%)]	Loss: 0.022214 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:46:40,060 - Agent - : Train Epoch: 112 [320/473 (69%)]	Loss: 0.040272 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:49:06,577 - Agent - : 
+Test set: acc: 97.2942, IOU: 78.2680, pre: 87.1516, rec: 88.4772, F1: 87.8094, kappa: 86.2877
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:49:11,866 - Agent - : Train Epoch: 113 [0/473 (0%)]	Loss: 0.031765 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:49:18,501 - Agent - : Train Epoch: 113 [160/473 (34%)]	Loss: 0.022631 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:49:25,281 - Agent - : Train Epoch: 113 [320/473 (69%)]	Loss: 0.039533 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:51:57,153 - Agent - : 
+Test set: acc: 97.3208, IOU: 78.2241, pre: 88.1863, rec: 87.3809, F1: 87.7817, kappa: 86.2772
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:51:57,860 - Agent - : Train Epoch: 114 [0/473 (0%)]	Loss: 0.032922 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:52:04,680 - Agent - : Train Epoch: 114 [160/473 (34%)]	Loss: 0.021663 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:52:11,318 - Agent - : Train Epoch: 114 [320/473 (69%)]	Loss: 0.039697 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:54:37,774 - Agent - : 
+Test set: acc: 97.1593, IOU: 76.8749, pre: 88.1452, rec: 85.7395, F1: 86.9257, kappa: 85.3326
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:54:38,464 - Agent - : Train Epoch: 115 [0/473 (0%)]	Loss: 0.031545 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:54:45,197 - Agent - : Train Epoch: 115 [160/473 (34%)]	Loss: 0.021541 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:54:51,813 - Agent - : Train Epoch: 115 [320/473 (69%)]	Loss: 0.041309 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:57:19,764 - Agent - : 
+Test set: acc: 97.2020, IOU: 77.0450, pre: 88.8800, rec: 85.2639, F1: 87.0344, kappa: 85.4669
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 15:57:20,492 - Agent - : Train Epoch: 116 [0/473 (0%)]	Loss: 0.030380 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:57:27,203 - Agent - : Train Epoch: 116 [160/473 (34%)]	Loss: 0.024179 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 15:57:33,784 - Agent - : Train Epoch: 116 [320/473 (69%)]	Loss: 0.038911 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:00:01,473 - Agent - : 
+Test set: acc: 97.2764, IOU: 78.0276, pre: 87.5027, rec: 87.8136, F1: 87.6578, kappa: 86.1271
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:00:07,033 - Agent - : Train Epoch: 117 [0/473 (0%)]	Loss: 0.032872 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:00:14,169 - Agent - : Train Epoch: 117 [160/473 (34%)]	Loss: 0.023646 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:00:20,915 - Agent - : Train Epoch: 117 [320/473 (69%)]	Loss: 0.037571 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:02:50,643 - Agent - : 
+Test set: acc: 96.9361, IOU: 76.4505, pre: 83.2852, rec: 90.3063, F1: 86.6538, kappa: 84.9264
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:02:51,329 - Agent - : Train Epoch: 118 [0/473 (0%)]	Loss: 0.033946 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:02:57,976 - Agent - : Train Epoch: 118 [160/473 (34%)]	Loss: 0.021077 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:03:04,479 - Agent - : Train Epoch: 118 [320/473 (69%)]	Loss: 0.041191 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:05:33,572 - Agent - : 
+Test set: acc: 96.9403, IOU: 76.3522, pre: 83.6965, rec: 89.6920, F1: 86.5906, kappa: 84.8661
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:05:34,273 - Agent - : Train Epoch: 119 [0/473 (0%)]	Loss: 0.031642 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:05:41,026 - Agent - : Train Epoch: 119 [160/473 (34%)]	Loss: 0.021971 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:05:47,707 - Agent - : Train Epoch: 119 [320/473 (69%)]	Loss: 0.039878 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:08:14,331 - Agent - : 
+Test set: acc: 97.2668, IOU: 77.7973, pre: 88.0801, rec: 86.9519, F1: 87.5124, kappa: 85.9779
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:08:14,979 - Agent - : Train Epoch: 120 [0/473 (0%)]	Loss: 0.031112 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:08:21,819 - Agent - : Train Epoch: 120 [160/473 (34%)]	Loss: 0.023593 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:08:29,738 - Agent - : Train Epoch: 120 [320/473 (69%)]	Loss: 0.038051 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:10:57,272 - Agent - : 
+Test set: acc: 97.1737, IOU: 76.6348, pre: 89.5467, rec: 84.1641, F1: 86.7720, kappa: 85.1915
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:11:02,412 - Agent - : Train Epoch: 121 [0/473 (0%)]	Loss: 0.032135 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:11:09,075 - Agent - : Train Epoch: 121 [160/473 (34%)]	Loss: 0.021544 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:11:15,804 - Agent - : Train Epoch: 121 [320/473 (69%)]	Loss: 0.037817 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:13:43,871 - Agent - : 
+Test set: acc: 97.1789, IOU: 77.0775, pre: 88.0062, rec: 86.1244, F1: 87.0551, kappa: 85.4723
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:13:44,612 - Agent - : Train Epoch: 122 [0/473 (0%)]	Loss: 0.030671 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:13:51,241 - Agent - : Train Epoch: 122 [160/473 (34%)]	Loss: 0.020539 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:13:57,856 - Agent - : Train Epoch: 122 [320/473 (69%)]	Loss: 0.038283 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:16:24,532 - Agent - : 
+Test set: acc: 97.3127, IOU: 78.4890, pre: 86.8977, rec: 89.0246, F1: 87.9482, kappa: 86.4362
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:16:25,194 - Agent - : Train Epoch: 123 [0/473 (0%)]	Loss: 0.029567 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:16:31,852 - Agent - : Train Epoch: 123 [160/473 (34%)]	Loss: 0.021235 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:16:38,492 - Agent - : Train Epoch: 123 [320/473 (69%)]	Loss: 0.038075 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:19:04,325 - Agent - : 
+Test set: acc: 97.1529, IOU: 77.4800, pre: 85.7463, rec: 88.9344, F1: 87.3112, kappa: 85.7084
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:19:04,983 - Agent - : Train Epoch: 124 [0/473 (0%)]	Loss: 0.030976 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:19:11,691 - Agent - : Train Epoch: 124 [160/473 (34%)]	Loss: 0.021716 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:19:18,307 - Agent - : Train Epoch: 124 [320/473 (69%)]	Loss: 0.036656 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:21:42,870 - Agent - : 
+Test set: acc: 96.9770, IOU: 76.3824, pre: 84.5572, rec: 88.7651, F1: 86.6100, kappa: 84.9073
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:21:47,838 - Agent - : Train Epoch: 125 [0/473 (0%)]	Loss: 0.031727 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:21:55,354 - Agent - : Train Epoch: 125 [160/473 (34%)]	Loss: 0.020192 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:22:02,207 - Agent - : Train Epoch: 125 [320/473 (69%)]	Loss: 0.038506 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:24:29,130 - Agent - : 
+Test set: acc: 96.9235, IOU: 76.4486, pre: 82.9769, rec: 90.6690, F1: 86.6526, kappa: 84.9178
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:24:29,803 - Agent - : Train Epoch: 126 [0/473 (0%)]	Loss: 0.030861 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:24:36,430 - Agent - : Train Epoch: 126 [160/473 (34%)]	Loss: 0.020497 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:24:43,101 - Agent - : Train Epoch: 126 [320/473 (69%)]	Loss: 0.037307 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:27:08,828 - Agent - : 
+Test set: acc: 97.1396, IOU: 77.7718, pre: 84.3698, rec: 90.8632, F1: 87.4962, kappa: 85.8838
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:27:09,486 - Agent - : Train Epoch: 127 [0/473 (0%)]	Loss: 0.029853 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:27:16,285 - Agent - : Train Epoch: 127 [160/473 (34%)]	Loss: 0.023135 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:27:22,892 - Agent - : Train Epoch: 127 [320/473 (69%)]	Loss: 0.037193 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:29:47,677 - Agent - : 
+Test set: acc: 97.3248, IOU: 78.2252, pre: 88.3144, rec: 87.2568, F1: 87.7824, kappa: 86.2805
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:29:48,400 - Agent - : Train Epoch: 128 [0/473 (0%)]	Loss: 0.031877 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:29:55,010 - Agent - : Train Epoch: 128 [160/473 (34%)]	Loss: 0.022524 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:30:01,873 - Agent - : Train Epoch: 128 [320/473 (69%)]	Loss: 0.037192 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:32:28,230 - Agent - : 
+Test set: acc: 97.1321, IOU: 76.6171, pre: 88.2542, rec: 85.3169, F1: 86.7607, kappa: 85.1531
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:32:33,561 - Agent - : Train Epoch: 129 [0/473 (0%)]	Loss: 0.031162 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:32:40,255 - Agent - : Train Epoch: 129 [160/473 (34%)]	Loss: 0.019971 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:32:46,922 - Agent - : Train Epoch: 129 [320/473 (69%)]	Loss: 0.037845 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:35:14,659 - Agent - : 
+Test set: acc: 97.2584, IOU: 77.3315, pre: 89.6457, rec: 84.9162, F1: 87.2169, kappa: 85.6827
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:35:15,351 - Agent - : Train Epoch: 130 [0/473 (0%)]	Loss: 0.029690 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:35:21,855 - Agent - : Train Epoch: 130 [160/473 (34%)]	Loss: 0.019849 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:35:29,158 - Agent - : Train Epoch: 130 [320/473 (69%)]	Loss: 0.037399 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:37:56,740 - Agent - : 
+Test set: acc: 97.1660, IOU: 77.4883, pre: 86.1010, rec: 88.5669, F1: 87.3165, kappa: 85.7217
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:37:57,409 - Agent - : Train Epoch: 131 [0/473 (0%)]	Loss: 0.028924 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:38:04,032 - Agent - : Train Epoch: 131 [160/473 (34%)]	Loss: 0.020929 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:38:10,634 - Agent - : Train Epoch: 131 [320/473 (69%)]	Loss: 0.037053 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:40:37,724 - Agent - : 
+Test set: acc: 97.0921, IOU: 77.2120, pre: 84.9439, rec: 89.4544, F1: 87.1408, kappa: 85.5028
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:40:38,366 - Agent - : Train Epoch: 132 [0/473 (0%)]	Loss: 0.029968 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:40:45,054 - Agent - : Train Epoch: 132 [160/473 (34%)]	Loss: 0.020489 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:40:51,680 - Agent - : Train Epoch: 132 [320/473 (69%)]	Loss: 0.036146 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:43:19,334 - Agent - : 
+Test set: acc: 97.0673, IOU: 77.0285, pre: 84.8737, rec: 89.2857, F1: 87.0238, kappa: 85.3718
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:43:24,458 - Agent - : Train Epoch: 133 [0/473 (0%)]	Loss: 0.030421 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:43:31,252 - Agent - : Train Epoch: 133 [160/473 (34%)]	Loss: 0.019746 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:43:38,053 - Agent - : Train Epoch: 133 [320/473 (69%)]	Loss: 0.037305 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:46:08,070 - Agent - : 
+Test set: acc: 97.1057, IOU: 77.2976, pre: 85.0323, rec: 89.4711, F1: 87.1953, kappa: 85.5649
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:46:08,760 - Agent - : Train Epoch: 134 [0/473 (0%)]	Loss: 0.029197 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:46:15,452 - Agent - : Train Epoch: 134 [160/473 (34%)]	Loss: 0.020368 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:46:22,135 - Agent - : Train Epoch: 134 [320/473 (69%)]	Loss: 0.037400 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:48:48,976 - Agent - : 
+Test set: acc: 97.3546, IOU: 78.6025, pre: 87.8098, rec: 88.2303, F1: 88.0195, kappa: 86.5327
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:48:49,653 - Agent - : Train Epoch: 135 [0/473 (0%)]	Loss: 0.029825 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:48:57,101 - Agent - : Train Epoch: 135 [160/473 (34%)]	Loss: 0.021459 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:49:03,711 - Agent - : Train Epoch: 135 [320/473 (69%)]	Loss: 0.036182 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:51:29,284 - Agent - : 
+Test set: acc: 97.3110, IOU: 77.9416, pre: 88.9861, rec: 86.2633, F1: 87.6036, kappa: 86.0959
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:51:29,974 - Agent - : Train Epoch: 136 [0/473 (0%)]	Loss: 0.031288 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:51:36,902 - Agent - : Train Epoch: 136 [160/473 (34%)]	Loss: 0.019467 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:51:43,430 - Agent - : Train Epoch: 136 [320/473 (69%)]	Loss: 0.037249 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:54:09,466 - Agent - : 
+Test set: acc: 97.2395, IOU: 77.4427, pre: 88.5672, rec: 86.0443, F1: 87.2875, kappa: 85.7396
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:54:14,659 - Agent - : Train Epoch: 137 [0/473 (0%)]	Loss: 0.028810 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:54:21,284 - Agent - : Train Epoch: 137 [160/473 (34%)]	Loss: 0.019732 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:54:27,966 - Agent - : Train Epoch: 137 [320/473 (69%)]	Loss: 0.036577 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:56:55,059 - Agent - : 
+Test set: acc: 97.2347, IOU: 77.8273, pre: 86.9450, rec: 88.1257, F1: 87.5313, kappa: 85.9763
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:56:55,703 - Agent - : Train Epoch: 138 [0/473 (0%)]	Loss: 0.029023 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:57:02,284 - Agent - : Train Epoch: 138 [160/473 (34%)]	Loss: 0.020257 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:57:09,074 - Agent - : Train Epoch: 138 [320/473 (69%)]	Loss: 0.035409 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:59:35,945 - Agent - : 
+Test set: acc: 97.1248, IOU: 77.5993, pre: 84.5423, rec: 90.4296, F1: 87.3869, kappa: 85.7665
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 16:59:36,603 - Agent - : Train Epoch: 139 [0/473 (0%)]	Loss: 0.029449 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:59:43,185 - Agent - : Train Epoch: 139 [160/473 (34%)]	Loss: 0.018757 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 16:59:49,788 - Agent - : Train Epoch: 139 [320/473 (69%)]	Loss: 0.036826 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:02:15,548 - Agent - : 
+Test set: acc: 97.0383, IOU: 77.0045, pre: 84.1701, rec: 90.0451, F1: 87.0085, kappa: 85.3393
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:02:16,243 - Agent - : Train Epoch: 140 [0/473 (0%)]	Loss: 0.028123 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:02:23,647 - Agent - : Train Epoch: 140 [160/473 (34%)]	Loss: 0.019342 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:02:30,249 - Agent - : Train Epoch: 140 [320/473 (69%)]	Loss: 0.035615 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:04:57,377 - Agent - : 
+Test set: acc: 97.3266, IOU: 78.4288, pre: 87.5751, rec: 88.2484, F1: 87.9104, kappa: 86.4076
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:05:02,583 - Agent - : Train Epoch: 141 [0/473 (0%)]	Loss: 0.029022 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:05:09,109 - Agent - : Train Epoch: 141 [160/473 (34%)]	Loss: 0.020270 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:05:15,702 - Agent - : Train Epoch: 141 [320/473 (69%)]	Loss: 0.035011 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:07:43,254 - Agent - : 
+Test set: acc: 97.3422, IOU: 78.2540, pre: 88.7860, rec: 86.8367, F1: 87.8006, kappa: 86.3094
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:07:43,920 - Agent - : Train Epoch: 142 [0/473 (0%)]	Loss: 0.029003 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:07:50,501 - Agent - : Train Epoch: 142 [160/473 (34%)]	Loss: 0.018195 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:07:57,190 - Agent - : Train Epoch: 142 [320/473 (69%)]	Loss: 0.035868 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:10:24,737 - Agent - : 
+Test set: acc: 97.2961, IOU: 78.0354, pre: 88.1128, rec: 87.2174, F1: 87.6628, kappa: 86.1445
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:10:25,397 - Agent - : Train Epoch: 143 [0/473 (0%)]	Loss: 0.027240 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:10:32,156 - Agent - : Train Epoch: 143 [160/473 (34%)]	Loss: 0.018820 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:10:38,741 - Agent - : Train Epoch: 143 [320/473 (69%)]	Loss: 0.034750 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:13:06,135 - Agent - : 
+Test set: acc: 97.2365, IOU: 77.9722, pre: 86.4654, rec: 88.8118, F1: 87.6229, kappa: 86.0678
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:13:06,796 - Agent - : Train Epoch: 144 [0/473 (0%)]	Loss: 0.027833 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:13:13,780 - Agent - : Train Epoch: 144 [160/473 (34%)]	Loss: 0.018374 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:13:20,361 - Agent - : Train Epoch: 144 [320/473 (69%)]	Loss: 0.034365 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:15:46,141 - Agent - : 
+Test set: acc: 97.1642, IOU: 77.6541, pre: 85.4631, rec: 89.4722, F1: 87.4217, kappa: 85.8246
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:15:51,657 - Agent - : Train Epoch: 145 [0/473 (0%)]	Loss: 0.028502 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:15:58,491 - Agent - : Train Epoch: 145 [160/473 (34%)]	Loss: 0.017812 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:16:05,008 - Agent - : Train Epoch: 145 [320/473 (69%)]	Loss: 0.035004 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:18:31,730 - Agent - : 
+Test set: acc: 97.1645, IOU: 77.5445, pre: 85.8561, rec: 88.9013, F1: 87.3522, kappa: 85.7560
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:18:32,373 - Agent - : Train Epoch: 146 [0/473 (0%)]	Loss: 0.026885 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:18:39,021 - Agent - : Train Epoch: 146 [160/473 (34%)]	Loss: 0.018979 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:18:45,704 - Agent - : Train Epoch: 146 [320/473 (69%)]	Loss: 0.034089 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:21:12,679 - Agent - : 
+Test set: acc: 97.3702, IOU: 78.7687, pre: 87.6710, rec: 88.5809, F1: 88.1236, kappa: 86.6451
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:21:13,380 - Agent - : Train Epoch: 147 [0/473 (0%)]	Loss: 0.028391 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:21:20,080 - Agent - : Train Epoch: 147 [160/473 (34%)]	Loss: 0.018322 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:21:26,758 - Agent - : Train Epoch: 147 [320/473 (69%)]	Loss: 0.034379 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:23:52,429 - Agent - : 
+Test set: acc: 97.3043, IOU: 78.3149, pre: 87.2958, rec: 88.3888, F1: 87.8389, kappa: 86.3231
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:23:53,093 - Agent - : Train Epoch: 148 [0/473 (0%)]	Loss: 0.027633 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:23:59,772 - Agent - : Train Epoch: 148 [160/473 (34%)]	Loss: 0.017712 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:24:06,376 - Agent - : Train Epoch: 148 [320/473 (69%)]	Loss: 0.035075 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:26:31,851 - Agent - : 
+Test set: acc: 97.2802, IOU: 78.0083, pre: 87.6976, rec: 87.5939, F1: 87.6457, kappa: 86.1176
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:26:36,852 - Agent - : Train Epoch: 149 [0/473 (0%)]	Loss: 0.026812 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:26:43,620 - Agent - : Train Epoch: 149 [160/473 (34%)]	Loss: 0.018473 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:26:50,342 - Agent - : Train Epoch: 149 [320/473 (69%)]	Loss: 0.033774 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:29:18,230 - Agent - : 
+Test set: acc: 97.2932, IOU: 78.0145, pre: 88.0991, rec: 87.2047, F1: 87.6496, kappa: 86.1297
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:29:18,900 - Agent - : Train Epoch: 150 [0/473 (0%)]	Loss: 0.028204 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:29:26,081 - Agent - : Train Epoch: 150 [160/473 (34%)]	Loss: 0.017862 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:29:32,707 - Agent - : Train Epoch: 150 [320/473 (69%)]	Loss: 0.034421 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:31:59,167 - Agent - : 
+Test set: acc: 97.1334, IOU: 77.5008, pre: 85.1168, rec: 89.6496, F1: 87.3244, kappa: 85.7096
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:31:59,872 - Agent - : Train Epoch: 151 [0/473 (0%)]	Loss: 0.027050 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:32:06,486 - Agent - : Train Epoch: 151 [160/473 (34%)]	Loss: 0.018307 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:32:13,024 - Agent - : Train Epoch: 151 [320/473 (69%)]	Loss: 0.034712 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:34:39,200 - Agent - : 
+Test set: acc: 97.2983, IOU: 78.3200, pre: 87.0849, rec: 88.6125, F1: 87.8421, kappa: 86.3225
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:34:39,861 - Agent - : Train Epoch: 152 [0/473 (0%)]	Loss: 0.027863 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:34:46,449 - Agent - : Train Epoch: 152 [160/473 (34%)]	Loss: 0.018477 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:34:53,031 - Agent - : Train Epoch: 152 [320/473 (69%)]	Loss: 0.033928 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:37:17,359 - Agent - : 
+Test set: acc: 97.3033, IOU: 78.2851, pre: 87.3756, rec: 88.2692, F1: 87.8201, kappa: 86.3039
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:37:22,354 - Agent - : Train Epoch: 153 [0/473 (0%)]	Loss: 0.027757 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:37:28,994 - Agent - : Train Epoch: 153 [160/473 (34%)]	Loss: 0.017646 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:37:35,578 - Agent - : Train Epoch: 153 [320/473 (69%)]	Loss: 0.035164 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:40:03,343 - Agent - : 
+Test set: acc: 97.2711, IOU: 77.6218, pre: 88.9143, rec: 85.9387, F1: 87.4012, kappa: 85.8715
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:40:04,014 - Agent - : Train Epoch: 154 [0/473 (0%)]	Loss: 0.026908 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:40:10,581 - Agent - : Train Epoch: 154 [160/473 (34%)]	Loss: 0.018451 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:40:17,152 - Agent - : Train Epoch: 154 [320/473 (69%)]	Loss: 0.034294 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:42:43,135 - Agent - : 
+Test set: acc: 97.2566, IOU: 77.8031, pre: 87.7290, rec: 87.3041, F1: 87.5160, kappa: 85.9750
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:42:43,782 - Agent - : Train Epoch: 155 [0/473 (0%)]	Loss: 0.027641 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:42:51,220 - Agent - : Train Epoch: 155 [160/473 (34%)]	Loss: 0.018651 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:42:58,003 - Agent - : Train Epoch: 155 [320/473 (69%)]	Loss: 0.034233 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:45:24,941 - Agent - : 
+Test set: acc: 97.0163, IOU: 77.0762, pre: 83.3671, rec: 91.0827, F1: 87.0542, kappa: 85.3718
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:45:25,608 - Agent - : Train Epoch: 156 [0/473 (0%)]	Loss: 0.027737 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:45:32,269 - Agent - : Train Epoch: 156 [160/473 (34%)]	Loss: 0.017853 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:45:39,003 - Agent - : Train Epoch: 156 [320/473 (69%)]	Loss: 0.034455 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:48:04,527 - Agent - : 
+Test set: acc: 97.1754, IOU: 78.0223, pre: 84.5091, rec: 91.0431, F1: 87.6545, kappa: 86.0623
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:48:09,807 - Agent - : Train Epoch: 157 [0/473 (0%)]	Loss: 0.027718 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:48:16,554 - Agent - : Train Epoch: 157 [160/473 (34%)]	Loss: 0.018438 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:48:23,194 - Agent - : Train Epoch: 157 [320/473 (69%)]	Loss: 0.034903 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:50:50,442 - Agent - : 
+Test set: acc: 97.3363, IOU: 78.5792, pre: 87.3041, rec: 88.7169, F1: 88.0048, kappa: 86.5067
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:50:51,102 - Agent - : Train Epoch: 158 [0/473 (0%)]	Loss: 0.028189 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:50:57,591 - Agent - : Train Epoch: 158 [160/473 (34%)]	Loss: 0.018132 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:51:04,355 - Agent - : Train Epoch: 158 [320/473 (69%)]	Loss: 0.035367 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:53:30,930 - Agent - : 
+Test set: acc: 97.2506, IOU: 77.5366, pre: 88.5640, rec: 86.1633, F1: 87.3472, kappa: 85.8052
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:53:31,607 - Agent - : Train Epoch: 159 [0/473 (0%)]	Loss: 0.027697 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:53:38,265 - Agent - : Train Epoch: 159 [160/473 (34%)]	Loss: 0.018296 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:53:44,784 - Agent - : Train Epoch: 159 [320/473 (69%)]	Loss: 0.036114 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:56:09,925 - Agent - : 
+Test set: acc: 97.1388, IOU: 76.9177, pre: 87.3431, rec: 86.5666, F1: 86.9531, kappa: 85.3463
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:56:10,589 - Agent - : Train Epoch: 160 [0/473 (0%)]	Loss: 0.027311 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:56:17,392 - Agent - : Train Epoch: 160 [160/473 (34%)]	Loss: 0.020296 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:56:24,731 - Agent - : Train Epoch: 160 [320/473 (69%)]	Loss: 0.034489 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:58:47,490 - Agent - : 
+Test set: acc: 97.2305, IOU: 77.9236, pre: 86.4601, rec: 88.7543, F1: 87.5922, kappa: 86.0338
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 17:58:52,806 - Agent - : Train Epoch: 161 [0/473 (0%)]	Loss: 0.029683 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:58:59,562 - Agent - : Train Epoch: 161 [160/473 (34%)]	Loss: 0.019363 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 17:59:06,236 - Agent - : Train Epoch: 161 [320/473 (69%)]	Loss: 0.035664 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:01:32,766 - Agent - : 
+Test set: acc: 96.9922, IOU: 76.6334, pre: 84.1495, rec: 89.5614, F1: 86.7711, kappa: 85.0762
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:01:33,431 - Agent - : Train Epoch: 162 [0/473 (0%)]	Loss: 0.030235 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:01:39,973 - Agent - : Train Epoch: 162 [160/473 (34%)]	Loss: 0.018869 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:01:46,628 - Agent - : Train Epoch: 162 [320/473 (69%)]	Loss: 0.038134 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:04:12,734 - Agent - : 
+Test set: acc: 96.8537, IOU: 75.6558, pre: 83.6590, rec: 88.7747, F1: 86.1409, kappa: 84.3681
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:04:13,389 - Agent - : Train Epoch: 163 [0/473 (0%)]	Loss: 0.029236 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:04:20,098 - Agent - : Train Epoch: 163 [160/473 (34%)]	Loss: 0.019528 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:04:26,817 - Agent - : Train Epoch: 163 [320/473 (69%)]	Loss: 0.037687 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:06:53,363 - Agent - : 
+Test set: acc: 97.0940, IOU: 76.6950, pre: 86.7931, rec: 86.8281, F1: 86.8106, kappa: 85.1777
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:06:54,079 - Agent - : Train Epoch: 164 [0/473 (0%)]	Loss: 0.029544 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:07:00,667 - Agent - : Train Epoch: 164 [160/473 (34%)]	Loss: 0.020382 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:07:07,256 - Agent - : Train Epoch: 164 [320/473 (69%)]	Loss: 0.036629 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:09:32,137 - Agent - : 
+Test set: acc: 97.1534, IOU: 76.4311, pre: 89.6694, rec: 83.8110, F1: 86.6413, kappa: 85.0503
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:09:36,868 - Agent - : Train Epoch: 165 [0/473 (0%)]	Loss: 0.028934 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:09:43,587 - Agent - : Train Epoch: 165 [160/473 (34%)]	Loss: 0.019709 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:09:51,163 - Agent - : Train Epoch: 165 [320/473 (69%)]	Loss: 0.036246 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:12:17,527 - Agent - : 
+Test set: acc: 97.1806, IOU: 77.0869, pre: 88.0237, rec: 86.1193, F1: 87.0611, kappa: 85.4793
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:12:18,188 - Agent - : Train Epoch: 166 [0/473 (0%)]	Loss: 0.029263 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:12:24,851 - Agent - : Train Epoch: 166 [160/473 (34%)]	Loss: 0.019165 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:12:31,658 - Agent - : Train Epoch: 166 [320/473 (69%)]	Loss: 0.035986 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:14:56,539 - Agent - : 
+Test set: acc: 97.0518, IOU: 76.4825, pre: 86.3014, rec: 87.0505, F1: 86.6743, kappa: 85.0169
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:14:57,205 - Agent - : Train Epoch: 167 [0/473 (0%)]	Loss: 0.029307 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:15:04,755 - Agent - : Train Epoch: 167 [160/473 (34%)]	Loss: 0.018652 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:15:11,286 - Agent - : Train Epoch: 167 [320/473 (69%)]	Loss: 0.036043 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:17:36,547 - Agent - : 
+Test set: acc: 96.8599, IOU: 76.0231, pre: 82.7047, rec: 90.3940, F1: 86.3785, kappa: 84.6079
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:17:37,257 - Agent - : Train Epoch: 168 [0/473 (0%)]	Loss: 0.028253 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:17:44,209 - Agent - : Train Epoch: 168 [160/473 (34%)]	Loss: 0.018567 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:17:50,958 - Agent - : Train Epoch: 168 [320/473 (69%)]	Loss: 0.036131 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:20:14,866 - Agent - : 
+Test set: acc: 96.6299, IOU: 74.8871, pre: 80.6853, rec: 91.2443, F1: 85.6405, kappa: 83.7396
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:20:20,024 - Agent - : Train Epoch: 169 [0/473 (0%)]	Loss: 0.029852 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:20:26,585 - Agent - : Train Epoch: 169 [160/473 (34%)]	Loss: 0.022033 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:20:33,204 - Agent - : Train Epoch: 169 [320/473 (69%)]	Loss: 0.036063 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:22:59,454 - Agent - : 
+Test set: acc: 97.3249, IOU: 78.2256, pre: 88.3178, rec: 87.2540, F1: 87.7827, kappa: 86.2808
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:23:00,132 - Agent - : Train Epoch: 170 [0/473 (0%)]	Loss: 0.029756 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:23:06,883 - Agent - : Train Epoch: 170 [160/473 (34%)]	Loss: 0.023953 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:23:13,585 - Agent - : Train Epoch: 170 [320/473 (69%)]	Loss: 0.036080 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:25:38,655 - Agent - : 
+Test set: acc: 97.3718, IOU: 78.5736, pre: 88.5037, rec: 87.5047, F1: 88.0013, kappa: 86.5257
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:25:39,332 - Agent - : Train Epoch: 171 [0/473 (0%)]	Loss: 0.043140 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:25:46,074 - Agent - : Train Epoch: 171 [160/473 (34%)]	Loss: 0.053572 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:25:52,667 - Agent - : Train Epoch: 171 [320/473 (69%)]	Loss: 0.055345 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:28:17,233 - Agent - : 
+Test set: acc: 96.4648, IOU: 72.7712, pre: 82.7527, rec: 85.7816, F1: 84.2400, kappa: 82.2498
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:28:17,883 - Agent - : Train Epoch: 172 [0/473 (0%)]	Loss: 0.084959 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:28:24,517 - Agent - : Train Epoch: 172 [160/473 (34%)]	Loss: 0.071163 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:28:32,119 - Agent - : Train Epoch: 172 [320/473 (69%)]	Loss: 0.054703 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:30:55,948 - Agent - : 
+Test set: acc: 97.0654, IOU: 76.2598, pre: 87.4955, rec: 85.5877, F1: 86.5311, kappa: 84.8846
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:31:01,335 - Agent - : Train Epoch: 173 [0/473 (0%)]	Loss: 0.069531 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:31:07,934 - Agent - : Train Epoch: 173 [160/473 (34%)]	Loss: 0.030710 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:31:14,516 - Agent - : Train Epoch: 173 [320/473 (69%)]	Loss: 0.045756 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:33:41,860 - Agent - : 
+Test set: acc: 96.2930, IOU: 72.3207, pre: 80.2851, rec: 87.9377, F1: 83.9373, kappa: 81.8469
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:33:42,522 - Agent - : Train Epoch: 174 [0/473 (0%)]	Loss: 0.063232 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:33:49,215 - Agent - : Train Epoch: 174 [160/473 (34%)]	Loss: 0.035822 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:33:55,791 - Agent - : Train Epoch: 174 [320/473 (69%)]	Loss: 0.045293 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:36:22,124 - Agent - : 
+Test set: acc: 97.5146, IOU: 79.4599, pre: 89.8526, rec: 87.2933, F1: 88.5545, kappa: 87.1608
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:36:22,784 - Agent - : Train Epoch: 175 [0/473 (0%)]	Loss: 0.038979 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:36:29,424 - Agent - : Train Epoch: 175 [160/473 (34%)]	Loss: 0.026510 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:36:36,074 - Agent - : Train Epoch: 175 [320/473 (69%)]	Loss: 0.050600 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:39:01,342 - Agent - : 
+Test set: acc: 96.9965, IOU: 76.1702, pre: 85.7942, rec: 87.1634, F1: 86.4734, kappa: 84.7842
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:39:02,007 - Agent - : Train Epoch: 176 [0/473 (0%)]	Loss: 0.040750 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:39:08,647 - Agent - : Train Epoch: 176 [160/473 (34%)]	Loss: 0.022531 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:39:15,285 - Agent - : Train Epoch: 176 [320/473 (69%)]	Loss: 0.041478 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:41:38,866 - Agent - : 
+Test set: acc: 97.4004, IOU: 78.8705, pre: 88.2737, rec: 88.1010, F1: 88.1873, kappa: 86.7268
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:41:44,281 - Agent - : Train Epoch: 177 [0/473 (0%)]	Loss: 0.032409 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:41:50,932 - Agent - : Train Epoch: 177 [160/473 (34%)]	Loss: 0.020741 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:41:58,542 - Agent - : Train Epoch: 177 [320/473 (69%)]	Loss: 0.038111 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:44:25,744 - Agent - : 
+Test set: acc: 97.4945, IOU: 79.5599, pre: 88.6914, rec: 88.5419, F1: 88.6166, kappa: 87.2089
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:44:26,450 - Agent - : Train Epoch: 178 [0/473 (0%)]	Loss: 0.030429 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:44:33,085 - Agent - : Train Epoch: 178 [160/473 (34%)]	Loss: 0.019488 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:44:39,742 - Agent - : Train Epoch: 178 [320/473 (69%)]	Loss: 0.036493 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:47:04,147 - Agent - : 
+Test set: acc: 97.5021, IOU: 79.6165, pre: 88.7196, rec: 88.5837, F1: 88.6516, kappa: 87.2482
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:47:04,822 - Agent - : Train Epoch: 179 [0/473 (0%)]	Loss: 0.029140 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:47:12,556 - Agent - : Train Epoch: 179 [160/473 (34%)]	Loss: 0.018911 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:47:19,182 - Agent - : Train Epoch: 179 [320/473 (69%)]	Loss: 0.035838 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:49:43,453 - Agent - : 
+Test set: acc: 97.4941, IOU: 79.5556, pre: 88.6955, rec: 88.5325, F1: 88.6139, kappa: 87.2060
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:49:44,130 - Agent - : Train Epoch: 180 [0/473 (0%)]	Loss: 0.028339 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:49:50,893 - Agent - : Train Epoch: 180 [160/473 (34%)]	Loss: 0.018408 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:49:57,606 - Agent - : Train Epoch: 180 [320/473 (69%)]	Loss: 0.035014 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:52:23,950 - Agent - : 
+Test set: acc: 97.4690, IOU: 79.5186, pre: 87.9750, rec: 89.2155, F1: 88.5909, kappa: 87.1676
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:52:29,133 - Agent - : Train Epoch: 181 [0/473 (0%)]	Loss: 0.028061 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:52:35,780 - Agent - : Train Epoch: 181 [160/473 (34%)]	Loss: 0.018262 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:52:42,484 - Agent - : Train Epoch: 181 [320/473 (69%)]	Loss: 0.034568 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:55:09,036 - Agent - : 
+Test set: acc: 97.4432, IOU: 79.4208, pre: 87.4967, rec: 89.5885, F1: 88.5302, kappa: 87.0917
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:55:09,696 - Agent - : Train Epoch: 182 [0/473 (0%)]	Loss: 0.027865 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:55:16,229 - Agent - : Train Epoch: 182 [160/473 (34%)]	Loss: 0.017905 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:55:22,941 - Agent - : Train Epoch: 182 [320/473 (69%)]	Loss: 0.034295 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:57:49,876 - Agent - : 
+Test set: acc: 97.4136, IOU: 79.3020, pre: 86.9918, rec: 89.9710, F1: 88.4563, kappa: 87.0004
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 18:57:50,559 - Agent - : Train Epoch: 183 [0/473 (0%)]	Loss: 0.027963 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:57:57,215 - Agent - : Train Epoch: 183 [160/473 (34%)]	Loss: 0.017731 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 18:58:03,937 - Agent - : Train Epoch: 183 [320/473 (69%)]	Loss: 0.034481 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:00:30,029 - Agent - : 
+Test set: acc: 97.3600, IOU: 79.0731, pre: 86.1689, rec: 90.5681, F1: 88.3138, kappa: 86.8267
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:00:30,674 - Agent - : Train Epoch: 184 [0/473 (0%)]	Loss: 0.028226 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:00:38,237 - Agent - : Train Epoch: 184 [160/473 (34%)]	Loss: 0.017671 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:00:44,981 - Agent - : Train Epoch: 184 [320/473 (69%)]	Loss: 0.034611 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:03:10,585 - Agent - : 
+Test set: acc: 97.3465, IOU: 78.9869, pre: 86.0759, rec: 90.5578, F1: 88.2600, kappa: 86.7653
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:03:16,023 - Agent - : Train Epoch: 185 [0/473 (0%)]	Loss: 0.027817 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:03:22,786 - Agent - : Train Epoch: 185 [160/473 (34%)]	Loss: 0.017659 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:03:29,538 - Agent - : Train Epoch: 185 [320/473 (69%)]	Loss: 0.034989 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:05:55,634 - Agent - : 
+Test set: acc: 97.2888, IOU: 78.6479, pre: 85.5748, rec: 90.6684, F1: 88.0480, kappa: 86.5204
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:05:56,388 - Agent - : Train Epoch: 186 [0/473 (0%)]	Loss: 0.027862 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:06:02,987 - Agent - : Train Epoch: 186 [160/473 (34%)]	Loss: 0.017869 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:06:09,690 - Agent - : Train Epoch: 186 [320/473 (69%)]	Loss: 0.036363 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:08:35,935 - Agent - : 
+Test set: acc: 97.3067, IOU: 78.7132, pre: 85.8754, rec: 90.4193, F1: 88.0888, kappa: 86.5717
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:08:36,558 - Agent - : Train Epoch: 187 [0/473 (0%)]	Loss: 0.027168 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:08:43,340 - Agent - : Train Epoch: 187 [160/473 (34%)]	Loss: 0.018997 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:08:49,911 - Agent - : Train Epoch: 187 [320/473 (69%)]	Loss: 0.036607 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:11:19,071 - Agent - : 
+Test set: acc: 97.3957, IOU: 79.1085, pre: 87.1700, rec: 89.5334, F1: 88.3359, kappa: 86.8704
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:11:19,769 - Agent - : Train Epoch: 188 [0/473 (0%)]	Loss: 0.027625 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:11:26,545 - Agent - : Train Epoch: 188 [160/473 (34%)]	Loss: 0.020576 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:11:33,234 - Agent - : Train Epoch: 188 [320/473 (69%)]	Loss: 0.035253 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:14:01,156 - Agent - : 
+Test set: acc: 97.3869, IOU: 78.7145, pre: 88.4478, rec: 87.7344, F1: 88.0897, kappa: 86.6222
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:14:06,755 - Agent - : Train Epoch: 189 [0/473 (0%)]	Loss: 0.031274 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:14:13,486 - Agent - : Train Epoch: 189 [160/473 (34%)]	Loss: 0.020702 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:14:20,067 - Agent - : Train Epoch: 189 [320/473 (69%)]	Loss: 0.035296 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:16:47,047 - Agent - : 
+Test set: acc: 97.2962, IOU: 77.7514, pre: 89.2454, rec: 85.7894, F1: 87.4833, kappa: 85.9683
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:16:47,700 - Agent - : Train Epoch: 190 [0/473 (0%)]	Loss: 0.034024 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:16:54,412 - Agent - : Train Epoch: 190 [160/473 (34%)]	Loss: 0.019161 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:17:01,167 - Agent - : Train Epoch: 190 [320/473 (69%)]	Loss: 0.040168 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:19:27,259 - Agent - : 
+Test set: acc: 97.2630, IOU: 77.1598, pre: 90.5149, rec: 83.9475, F1: 87.1076, kappa: 85.5790
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:19:27,958 - Agent - : Train Epoch: 191 [0/473 (0%)]	Loss: 0.031648 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:19:34,908 - Agent - : Train Epoch: 191 [160/473 (34%)]	Loss: 0.019289 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:19:41,560 - Agent - : Train Epoch: 191 [320/473 (69%)]	Loss: 0.041358 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:22:10,437 - Agent - : 
+Test set: acc: 97.3544, IOU: 78.0728, pre: 89.9615, rec: 85.5236, F1: 87.6864, kappa: 86.2055
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:22:11,101 - Agent - : Train Epoch: 192 [0/473 (0%)]	Loss: 0.028255 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:22:17,706 - Agent - : Train Epoch: 192 [160/473 (34%)]	Loss: 0.020888 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:22:25,105 - Agent - : Train Epoch: 192 [320/473 (69%)]	Loss: 0.037005 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:24:50,863 - Agent - : 
+Test set: acc: 97.3543, IOU: 78.8286, pre: 86.9188, rec: 89.4393, F1: 88.1611, kappa: 86.6721
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:24:56,121 - Agent - : Train Epoch: 193 [0/473 (0%)]	Loss: 0.029357 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:25:02,753 - Agent - : Train Epoch: 193 [160/473 (34%)]	Loss: 0.019415 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:25:09,284 - Agent - : Train Epoch: 193 [320/473 (69%)]	Loss: 0.034754 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:27:37,657 - Agent - : 
+Test set: acc: 97.2490, IOU: 78.4523, pre: 85.1075, rec: 90.9359, F1: 87.9252, kappa: 86.3748
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:27:38,327 - Agent - : Train Epoch: 194 [0/473 (0%)]	Loss: 0.028712 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:27:45,012 - Agent - : Train Epoch: 194 [160/473 (34%)]	Loss: 0.017635 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:27:51,615 - Agent - : Train Epoch: 194 [320/473 (69%)]	Loss: 0.035194 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:30:16,537 - Agent - : 
+Test set: acc: 97.3143, IOU: 78.7449, pre: 85.9895, rec: 90.3350, F1: 88.1087, kappa: 86.5960
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:30:17,203 - Agent - : Train Epoch: 195 [0/473 (0%)]	Loss: 0.027347 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:30:23,807 - Agent - : Train Epoch: 195 [160/473 (34%)]	Loss: 0.018393 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:30:30,497 - Agent - : Train Epoch: 195 [320/473 (69%)]	Loss: 0.033772 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:32:56,950 - Agent - : 
+Test set: acc: 97.3098, IOU: 78.4613, pre: 86.9097, rec: 88.9764, F1: 87.9309, kappa: 86.4173
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:32:57,614 - Agent - : Train Epoch: 196 [0/473 (0%)]	Loss: 0.027656 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:33:04,219 - Agent - : Train Epoch: 196 [160/473 (34%)]	Loss: 0.017967 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:33:10,902 - Agent - : Train Epoch: 196 [320/473 (69%)]	Loss: 0.033532 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:35:36,778 - Agent - : 
+Test set: acc: 97.2600, IOU: 78.1349, pre: 86.5841, rec: 88.8975, F1: 87.7256, kappa: 86.1838
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:35:42,079 - Agent - : Train Epoch: 197 [0/473 (0%)]	Loss: 0.027815 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:35:48,664 - Agent - : Train Epoch: 197 [160/473 (34%)]	Loss: 0.016912 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:35:56,125 - Agent - : Train Epoch: 197 [320/473 (69%)]	Loss: 0.034802 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:38:22,667 - Agent - : 
+Test set: acc: 97.2461, IOU: 78.1466, pre: 86.1181, rec: 89.4093, F1: 87.7329, kappa: 86.1825
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:38:23,327 - Agent - : Train Epoch: 198 [0/473 (0%)]	Loss: 0.026773 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:38:30,110 - Agent - : Train Epoch: 198 [160/473 (34%)]	Loss: 0.017056 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:38:36,970 - Agent - : Train Epoch: 198 [320/473 (69%)]	Loss: 0.034962 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:41:04,752 - Agent - : 
+Test set: acc: 97.2924, IOU: 78.4347, pre: 86.4665, rec: 89.4111, F1: 87.9142, kappa: 86.3900
+ in /home/jovyan/work/Code/agents/resunet.py:186
+[INFO] - 2024-07-11 19:41:05,436 - Agent - : Train Epoch: 199 [0/473 (0%)]	Loss: 0.026177 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:41:12,097 - Agent - : Train Epoch: 199 [160/473 (34%)]	Loss: 0.017836 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:41:18,921 - Agent - : Train Epoch: 199 [320/473 (69%)]	Loss: 0.033466 in /home/jovyan/work/Code/agents/resunet.py:139
+[INFO] - 2024-07-11 19:43:43,676 - Agent - : 
+Test set: acc: 97.3139, IOU: 78.3310, pre: 87.5427, rec: 88.1574, F1: 87.8490, kappa: 86.3391
+ in /home/jovyan/work/Code/agents/resunet.py:186

@@ -1,0 +1,1217 @@
+[INFO] - 2024-07-13 08:45:58,033 - root - : Hi, This is root. in /home/jovyan/input/Code/Science/utils/config.py:92
+[INFO] - 2024-07-13 08:45:58,033 - root - : After the configurations are successfully processed and dirs are created. in /home/jovyan/input/Code/Science/utils/config.py:93
+[INFO] - 2024-07-13 08:45:58,033 - root - : The pipeline of the project will begin now. in /home/jovyan/input/Code/Science/utils/config.py:94
+[INFO] - 2024-07-13 08:46:01,724 - Agent - : Program will run on *****GPU*****  in /home/jovyan/input/Code/Science/agents/unet.py:67
+[INFO] - 2024-07-13 08:46:01,724 - Cuda Statistics - : __Python VERSION:  3.8.19 (default, Mar 20 2024, 19:58:24) 
+[GCC 11.2.0] in /home/jovyan/input/Code/Science/utils/misc.py:25
+[INFO] - 2024-07-13 08:46:01,724 - Cuda Statistics - : __pyTorch VERSION:  1.7.0 in /home/jovyan/input/Code/Science/utils/misc.py:26
+[INFO] - 2024-07-13 08:46:01,724 - Cuda Statistics - : __CUDA VERSION in /home/jovyan/input/Code/Science/utils/misc.py:27
+[INFO] - 2024-07-13 08:46:01,836 - Cuda Statistics - : __CUDNN VERSION:  8003 in /home/jovyan/input/Code/Science/utils/misc.py:29
+[INFO] - 2024-07-13 08:46:01,837 - Cuda Statistics - : __Number CUDA Devices:  1 in /home/jovyan/input/Code/Science/utils/misc.py:30
+[INFO] - 2024-07-13 08:46:01,837 - Cuda Statistics - : __Devices in /home/jovyan/input/Code/Science/utils/misc.py:31
+[INFO] - 2024-07-13 08:46:01,951 - Cuda Statistics - : Active CUDA Device: GPU 0 in /home/jovyan/input/Code/Science/utils/misc.py:34
+[INFO] - 2024-07-13 08:46:01,951 - Cuda Statistics - : Available devices  1 in /home/jovyan/input/Code/Science/utils/misc.py:35
+[INFO] - 2024-07-13 08:46:01,951 - Cuda Statistics - : Current cuda device  0 in /home/jovyan/input/Code/Science/utils/misc.py:36
+[INFO] - 2024-07-13 08:46:06,058 - Agent - : Train Epoch: 0 [0/473 (0%)]	Loss: 0.708717 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:12,281 - Agent - : Train Epoch: 0 [160/473 (34%)]	Loss: 0.507865 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:17,584 - Agent - : Train Epoch: 0 [320/473 (69%)]	Loss: 0.487921 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:25,547 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:46:29,972 - Agent - : Train Epoch: 1 [0/473 (0%)]	Loss: 0.402005 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:34,582 - Agent - : Train Epoch: 1 [160/473 (34%)]	Loss: 0.429515 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:39,654 - Agent - : Train Epoch: 1 [320/473 (69%)]	Loss: 0.447280 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:46,346 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:46:47,240 - Agent - : Train Epoch: 2 [0/473 (0%)]	Loss: 0.343217 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:52,767 - Agent - : Train Epoch: 2 [160/473 (34%)]	Loss: 0.392312 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:46:58,294 - Agent - : Train Epoch: 2 [320/473 (69%)]	Loss: 0.386052 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:04,873 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:47:05,518 - Agent - : Train Epoch: 3 [0/473 (0%)]	Loss: 0.312209 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:10,069 - Agent - : Train Epoch: 3 [160/473 (34%)]	Loss: 0.349394 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:14,657 - Agent - : Train Epoch: 3 [320/473 (69%)]	Loss: 0.340980 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:22,354 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:47:23,189 - Agent - : Train Epoch: 4 [0/473 (0%)]	Loss: 0.294759 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:29,362 - Agent - : Train Epoch: 4 [160/473 (34%)]	Loss: 0.316511 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:34,383 - Agent - : Train Epoch: 4 [320/473 (69%)]	Loss: 0.296622 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:41,375 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:47:45,768 - Agent - : Train Epoch: 5 [0/473 (0%)]	Loss: 0.277721 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:51,080 - Agent - : Train Epoch: 5 [160/473 (34%)]	Loss: 0.313860 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:47:55,677 - Agent - : Train Epoch: 5 [320/473 (69%)]	Loss: 0.289000 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:01,576 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:48:02,271 - Agent - : Train Epoch: 6 [0/473 (0%)]	Loss: 0.263130 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:06,715 - Agent - : Train Epoch: 6 [160/473 (34%)]	Loss: 0.293741 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:11,358 - Agent - : Train Epoch: 6 [320/473 (69%)]	Loss: 0.265886 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:18,677 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:48:19,273 - Agent - : Train Epoch: 7 [0/473 (0%)]	Loss: 0.250603 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:24,571 - Agent - : Train Epoch: 7 [160/473 (34%)]	Loss: 0.281197 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:29,142 - Agent - : Train Epoch: 7 [320/473 (69%)]	Loss: 0.250594 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:36,054 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:48:36,671 - Agent - : Train Epoch: 8 [0/473 (0%)]	Loss: 0.244052 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:41,372 - Agent - : Train Epoch: 8 [160/473 (34%)]	Loss: 0.263936 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:45,882 - Agent - : Train Epoch: 8 [320/473 (69%)]	Loss: 0.235834 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:48:54,730 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:48:59,368 - Agent - : Train Epoch: 9 [0/473 (0%)]	Loss: 0.241840 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:05,881 - Agent - : Train Epoch: 9 [160/473 (34%)]	Loss: 0.259955 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:11,586 - Agent - : Train Epoch: 9 [320/473 (69%)]	Loss: 0.229599 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:17,571 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:49:18,173 - Agent - : Train Epoch: 10 [0/473 (0%)]	Loss: 0.222442 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:23,374 - Agent - : Train Epoch: 10 [160/473 (34%)]	Loss: 0.233669 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:27,874 - Agent - : Train Epoch: 10 [320/473 (69%)]	Loss: 0.216605 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:34,546 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:49:35,156 - Agent - : Train Epoch: 11 [0/473 (0%)]	Loss: 0.233213 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:40,647 - Agent - : Train Epoch: 11 [160/473 (34%)]	Loss: 0.234035 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:46,520 - Agent - : Train Epoch: 11 [320/473 (69%)]	Loss: 0.215923 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:53,552 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:49:54,174 - Agent - : Train Epoch: 12 [0/473 (0%)]	Loss: 0.213891 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:49:59,582 - Agent - : Train Epoch: 12 [160/473 (34%)]	Loss: 0.213648 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:04,662 - Agent - : Train Epoch: 12 [320/473 (69%)]	Loss: 0.203493 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:11,739 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:50:16,072 - Agent - : Train Epoch: 13 [0/473 (0%)]	Loss: 0.224501 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:20,876 - Agent - : Train Epoch: 13 [160/473 (34%)]	Loss: 0.210583 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:25,365 - Agent - : Train Epoch: 13 [320/473 (69%)]	Loss: 0.207919 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:33,158 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:50:34,015 - Agent - : Train Epoch: 14 [0/473 (0%)]	Loss: 0.211426 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:39,196 - Agent - : Train Epoch: 14 [160/473 (34%)]	Loss: 0.208340 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:44,147 - Agent - : Train Epoch: 14 [320/473 (69%)]	Loss: 0.186646 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:51,263 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:50:52,073 - Agent - : Train Epoch: 15 [0/473 (0%)]	Loss: 0.206176 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:50:58,081 - Agent - : Train Epoch: 15 [160/473 (34%)]	Loss: 0.194153 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:03,146 - Agent - : Train Epoch: 15 [320/473 (69%)]	Loss: 0.183054 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:09,238 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:51:09,859 - Agent - : Train Epoch: 16 [0/473 (0%)]	Loss: 0.193323 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:14,360 - Agent - : Train Epoch: 16 [160/473 (34%)]	Loss: 0.178858 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:18,844 - Agent - : Train Epoch: 16 [320/473 (69%)]	Loss: 0.179826 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:25,041 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:51:29,385 - Agent - : Train Epoch: 17 [0/473 (0%)]	Loss: 0.175863 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:33,978 - Agent - : Train Epoch: 17 [160/473 (34%)]	Loss: 0.174819 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:38,682 - Agent - : Train Epoch: 17 [320/473 (69%)]	Loss: 0.164592 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:44,477 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:51:45,082 - Agent - : Train Epoch: 18 [0/473 (0%)]	Loss: 0.173322 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:49,566 - Agent - : Train Epoch: 18 [160/473 (34%)]	Loss: 0.180334 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:51:54,081 - Agent - : Train Epoch: 18 [320/473 (69%)]	Loss: 0.165714 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:01,137 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:52:01,953 - Agent - : Train Epoch: 19 [0/473 (0%)]	Loss: 0.185171 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:07,350 - Agent - : Train Epoch: 19 [160/473 (34%)]	Loss: 0.169935 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:14,215 - Agent - : Train Epoch: 19 [320/473 (69%)]	Loss: 0.157997 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:21,267 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:52:21,893 - Agent - : Train Epoch: 20 [0/473 (0%)]	Loss: 0.172530 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:26,572 - Agent - : Train Epoch: 20 [160/473 (34%)]	Loss: 0.160999 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:32,163 - Agent - : Train Epoch: 20 [320/473 (69%)]	Loss: 0.168827 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:39,068 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:52:43,401 - Agent - : Train Epoch: 21 [0/473 (0%)]	Loss: 0.172563 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:48,158 - Agent - : Train Epoch: 21 [160/473 (34%)]	Loss: 0.157505 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:52:54,762 - Agent - : Train Epoch: 21 [320/473 (69%)]	Loss: 0.144959 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:01,865 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:53:02,623 - Agent - : Train Epoch: 22 [0/473 (0%)]	Loss: 0.154806 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:07,650 - Agent - : Train Epoch: 22 [160/473 (34%)]	Loss: 0.148423 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:13,118 - Agent - : Train Epoch: 22 [320/473 (69%)]	Loss: 0.141190 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:20,034 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:53:20,647 - Agent - : Train Epoch: 23 [0/473 (0%)]	Loss: 0.143297 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:25,245 - Agent - : Train Epoch: 23 [160/473 (34%)]	Loss: 0.141023 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:30,166 - Agent - : Train Epoch: 23 [320/473 (69%)]	Loss: 0.138403 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:36,437 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:53:37,053 - Agent - : Train Epoch: 24 [0/473 (0%)]	Loss: 0.136007 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:42,759 - Agent - : Train Epoch: 24 [160/473 (34%)]	Loss: 0.135105 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:49,156 - Agent - : Train Epoch: 24 [320/473 (69%)]	Loss: 0.131162 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:53:56,640 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:54:01,516 - Agent - : Train Epoch: 25 [0/473 (0%)]	Loss: 0.131285 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:06,679 - Agent - : Train Epoch: 25 [160/473 (34%)]	Loss: 0.129681 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:11,375 - Agent - : Train Epoch: 25 [320/473 (69%)]	Loss: 0.128973 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:17,259 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:54:17,856 - Agent - : Train Epoch: 26 [0/473 (0%)]	Loss: 0.128534 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:22,555 - Agent - : Train Epoch: 26 [160/473 (34%)]	Loss: 0.123057 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:28,179 - Agent - : Train Epoch: 26 [320/473 (69%)]	Loss: 0.126059 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:34,871 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:54:35,810 - Agent - : Train Epoch: 27 [0/473 (0%)]	Loss: 0.119694 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:41,507 - Agent - : Train Epoch: 27 [160/473 (34%)]	Loss: 0.117823 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:46,079 - Agent - : Train Epoch: 27 [320/473 (69%)]	Loss: 0.121781 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:52,444 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:54:53,044 - Agent - : Train Epoch: 28 [0/473 (0%)]	Loss: 0.116291 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:54:57,670 - Agent - : Train Epoch: 28 [160/473 (34%)]	Loss: 0.112943 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:02,660 - Agent - : Train Epoch: 28 [320/473 (69%)]	Loss: 0.124956 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:09,876 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:55:14,543 - Agent - : Train Epoch: 29 [0/473 (0%)]	Loss: 0.118869 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:19,842 - Agent - : Train Epoch: 29 [160/473 (34%)]	Loss: 0.114226 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:26,330 - Agent - : Train Epoch: 29 [320/473 (69%)]	Loss: 0.119776 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:33,274 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:55:33,893 - Agent - : Train Epoch: 30 [0/473 (0%)]	Loss: 0.116697 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:40,662 - Agent - : Train Epoch: 30 [160/473 (34%)]	Loss: 0.110923 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:47,446 - Agent - : Train Epoch: 30 [320/473 (69%)]	Loss: 0.115230 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:54,472 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:55:55,073 - Agent - : Train Epoch: 31 [0/473 (0%)]	Loss: 0.109642 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:55:59,784 - Agent - : Train Epoch: 31 [160/473 (34%)]	Loss: 0.107012 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:05,743 - Agent - : Train Epoch: 31 [320/473 (69%)]	Loss: 0.109638 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:13,375 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:56:13,975 - Agent - : Train Epoch: 32 [0/473 (0%)]	Loss: 0.103347 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:19,545 - Agent - : Train Epoch: 32 [160/473 (34%)]	Loss: 0.102237 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:24,163 - Agent - : Train Epoch: 32 [320/473 (69%)]	Loss: 0.106158 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:30,241 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:56:34,788 - Agent - : Train Epoch: 33 [0/473 (0%)]	Loss: 0.097345 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:39,473 - Agent - : Train Epoch: 33 [160/473 (34%)]	Loss: 0.099124 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:44,014 - Agent - : Train Epoch: 33 [320/473 (69%)]	Loss: 0.103839 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:50,640 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:56:51,252 - Agent - : Train Epoch: 34 [0/473 (0%)]	Loss: 0.094100 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:56:56,245 - Agent - : Train Epoch: 34 [160/473 (34%)]	Loss: 0.098908 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:01,752 - Agent - : Train Epoch: 34 [320/473 (69%)]	Loss: 0.104534 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:10,442 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:57:11,063 - Agent - : Train Epoch: 35 [0/473 (0%)]	Loss: 0.094528 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:16,377 - Agent - : Train Epoch: 35 [160/473 (34%)]	Loss: 0.094743 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:20,860 - Agent - : Train Epoch: 35 [320/473 (69%)]	Loss: 0.099276 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:27,846 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:57:28,483 - Agent - : Train Epoch: 36 [0/473 (0%)]	Loss: 0.093611 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:34,078 - Agent - : Train Epoch: 36 [160/473 (34%)]	Loss: 0.094386 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:40,660 - Agent - : Train Epoch: 36 [320/473 (69%)]	Loss: 0.096308 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:46,549 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:57:50,668 - Agent - : Train Epoch: 37 [0/473 (0%)]	Loss: 0.108663 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:55,266 - Agent - : Train Epoch: 37 [160/473 (34%)]	Loss: 0.099668 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:57:59,719 - Agent - : Train Epoch: 37 [320/473 (69%)]	Loss: 0.109098 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:06,830 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:58:07,457 - Agent - : Train Epoch: 38 [0/473 (0%)]	Loss: 0.110190 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:13,647 - Agent - : Train Epoch: 38 [160/473 (34%)]	Loss: 0.100928 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:19,469 - Agent - : Train Epoch: 38 [320/473 (69%)]	Loss: 0.100221 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:25,332 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:58:25,882 - Agent - : Train Epoch: 39 [0/473 (0%)]	Loss: 0.091628 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:30,462 - Agent - : Train Epoch: 39 [160/473 (34%)]	Loss: 0.091325 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:35,292 - Agent - : Train Epoch: 39 [320/473 (69%)]	Loss: 0.097037 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:41,670 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:58:42,257 - Agent - : Train Epoch: 40 [0/473 (0%)]	Loss: 0.087900 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:47,349 - Agent - : Train Epoch: 40 [160/473 (34%)]	Loss: 0.087711 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:52,634 - Agent - : Train Epoch: 40 [320/473 (69%)]	Loss: 0.095479 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:58:59,242 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:59:03,678 - Agent - : Train Epoch: 41 [0/473 (0%)]	Loss: 0.096230 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:08,662 - Agent - : Train Epoch: 41 [160/473 (34%)]	Loss: 0.085269 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:13,279 - Agent - : Train Epoch: 41 [320/473 (69%)]	Loss: 0.091446 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:22,036 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:59:22,624 - Agent - : Train Epoch: 42 [0/473 (0%)]	Loss: 0.082900 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:29,157 - Agent - : Train Epoch: 42 [160/473 (34%)]	Loss: 0.079943 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:34,166 - Agent - : Train Epoch: 42 [320/473 (69%)]	Loss: 0.088470 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:42,955 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 08:59:43,963 - Agent - : Train Epoch: 43 [0/473 (0%)]	Loss: 0.084163 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:50,555 - Agent - : Train Epoch: 43 [160/473 (34%)]	Loss: 0.078126 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 08:59:56,253 - Agent - : Train Epoch: 43 [320/473 (69%)]	Loss: 0.086387 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:04,970 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:00:05,595 - Agent - : Train Epoch: 44 [0/473 (0%)]	Loss: 0.079275 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:11,175 - Agent - : Train Epoch: 44 [160/473 (34%)]	Loss: 0.075659 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:15,969 - Agent - : Train Epoch: 44 [320/473 (69%)]	Loss: 0.084207 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:24,173 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:00:28,881 - Agent - : Train Epoch: 45 [0/473 (0%)]	Loss: 0.077044 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:33,577 - Agent - : Train Epoch: 45 [160/473 (34%)]	Loss: 0.074870 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:38,384 - Agent - : Train Epoch: 45 [320/473 (69%)]	Loss: 0.082894 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:44,561 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:00:45,165 - Agent - : Train Epoch: 46 [0/473 (0%)]	Loss: 0.074698 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:49,843 - Agent - : Train Epoch: 46 [160/473 (34%)]	Loss: 0.071990 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:00:54,375 - Agent - : Train Epoch: 46 [320/473 (69%)]	Loss: 0.081477 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:00,661 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:01:01,285 - Agent - : Train Epoch: 47 [0/473 (0%)]	Loss: 0.072188 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:07,259 - Agent - : Train Epoch: 47 [160/473 (34%)]	Loss: 0.070791 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:11,987 - Agent - : Train Epoch: 47 [320/473 (69%)]	Loss: 0.080497 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:18,445 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:01:19,049 - Agent - : Train Epoch: 48 [0/473 (0%)]	Loss: 0.070487 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:23,760 - Agent - : Train Epoch: 48 [160/473 (34%)]	Loss: 0.070388 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:28,913 - Agent - : Train Epoch: 48 [320/473 (69%)]	Loss: 0.081353 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:34,935 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:01:39,369 - Agent - : Train Epoch: 49 [0/473 (0%)]	Loss: 0.070658 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:44,062 - Agent - : Train Epoch: 49 [160/473 (34%)]	Loss: 0.071384 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:48,672 - Agent - : Train Epoch: 49 [320/473 (69%)]	Loss: 0.079741 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:54,557 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:01:55,160 - Agent - : Train Epoch: 50 [0/473 (0%)]	Loss: 0.074220 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:01:59,847 - Agent - : Train Epoch: 50 [160/473 (34%)]	Loss: 0.065492 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:04,843 - Agent - : Train Epoch: 50 [320/473 (69%)]	Loss: 0.077525 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:10,946 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:02:11,547 - Agent - : Train Epoch: 51 [0/473 (0%)]	Loss: 0.076400 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:16,064 - Agent - : Train Epoch: 51 [160/473 (34%)]	Loss: 0.067624 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:20,783 - Agent - : Train Epoch: 51 [320/473 (69%)]	Loss: 0.078009 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:26,861 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:02:27,572 - Agent - : Train Epoch: 52 [0/473 (0%)]	Loss: 0.072925 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:32,570 - Agent - : Train Epoch: 52 [160/473 (34%)]	Loss: 0.064389 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:37,767 - Agent - : Train Epoch: 52 [320/473 (69%)]	Loss: 0.074971 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:44,050 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:02:48,483 - Agent - : Train Epoch: 53 [0/473 (0%)]	Loss: 0.071887 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:53,159 - Agent - : Train Epoch: 53 [160/473 (34%)]	Loss: 0.064104 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:02:57,956 - Agent - : Train Epoch: 53 [320/473 (69%)]	Loss: 0.073464 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:05,142 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:03:05,773 - Agent - : Train Epoch: 54 [0/473 (0%)]	Loss: 0.066816 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:10,278 - Agent - : Train Epoch: 54 [160/473 (34%)]	Loss: 0.062228 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:14,773 - Agent - : Train Epoch: 54 [320/473 (69%)]	Loss: 0.073758 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:20,964 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:03:21,562 - Agent - : Train Epoch: 55 [0/473 (0%)]	Loss: 0.067005 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:26,053 - Agent - : Train Epoch: 55 [160/473 (34%)]	Loss: 0.061699 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:31,166 - Agent - : Train Epoch: 55 [320/473 (69%)]	Loss: 0.072937 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:39,130 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:03:39,763 - Agent - : Train Epoch: 56 [0/473 (0%)]	Loss: 0.066465 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:44,275 - Agent - : Train Epoch: 56 [160/473 (34%)]	Loss: 0.058506 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:48,756 - Agent - : Train Epoch: 56 [320/473 (69%)]	Loss: 0.074243 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:03:57,133 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:04:01,461 - Agent - : Train Epoch: 57 [0/473 (0%)]	Loss: 0.066657 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:05,985 - Agent - : Train Epoch: 57 [160/473 (34%)]	Loss: 0.057578 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:10,583 - Agent - : Train Epoch: 57 [320/473 (69%)]	Loss: 0.072032 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:17,667 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:04:18,265 - Agent - : Train Epoch: 58 [0/473 (0%)]	Loss: 0.065125 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:23,073 - Agent - : Train Epoch: 58 [160/473 (34%)]	Loss: 0.056951 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:28,867 - Agent - : Train Epoch: 58 [320/473 (69%)]	Loss: 0.068866 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:36,556 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:04:37,179 - Agent - : Train Epoch: 59 [0/473 (0%)]	Loss: 0.063841 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:43,574 - Agent - : Train Epoch: 59 [160/473 (34%)]	Loss: 0.057817 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:48,144 - Agent - : Train Epoch: 59 [320/473 (69%)]	Loss: 0.071148 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:04:55,240 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:04:55,859 - Agent - : Train Epoch: 60 [0/473 (0%)]	Loss: 0.095944 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:00,467 - Agent - : Train Epoch: 60 [160/473 (34%)]	Loss: 0.096664 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:05,268 - Agent - : Train Epoch: 60 [320/473 (69%)]	Loss: 0.088950 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:11,961 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:05:16,751 - Agent - : Train Epoch: 61 [0/473 (0%)]	Loss: 0.140317 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:21,367 - Agent - : Train Epoch: 61 [160/473 (34%)]	Loss: 0.096472 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:25,842 - Agent - : Train Epoch: 61 [320/473 (69%)]	Loss: 0.082458 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:32,241 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:05:32,857 - Agent - : Train Epoch: 62 [0/473 (0%)]	Loss: 0.093203 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:38,664 - Agent - : Train Epoch: 62 [160/473 (34%)]	Loss: 0.079320 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:45,056 - Agent - : Train Epoch: 62 [320/473 (69%)]	Loss: 0.094151 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:51,457 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:05:52,083 - Agent - : Train Epoch: 63 [0/473 (0%)]	Loss: 0.095404 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:05:58,950 - Agent - : Train Epoch: 63 [160/473 (34%)]	Loss: 0.076259 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:04,549 - Agent - : Train Epoch: 63 [320/473 (69%)]	Loss: 0.091940 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:11,345 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:06:11,959 - Agent - : Train Epoch: 64 [0/473 (0%)]	Loss: 0.079588 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:16,642 - Agent - : Train Epoch: 64 [160/473 (34%)]	Loss: 0.064512 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:21,645 - Agent - : Train Epoch: 64 [320/473 (69%)]	Loss: 0.081838 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:28,035 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:06:33,187 - Agent - : Train Epoch: 65 [0/473 (0%)]	Loss: 0.075729 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:38,209 - Agent - : Train Epoch: 65 [160/473 (34%)]	Loss: 0.059732 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:43,163 - Agent - : Train Epoch: 65 [320/473 (69%)]	Loss: 0.072644 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:49,431 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:06:49,972 - Agent - : Train Epoch: 66 [0/473 (0%)]	Loss: 0.066037 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:54,984 - Agent - : Train Epoch: 66 [160/473 (34%)]	Loss: 0.056735 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:06:59,547 - Agent - : Train Epoch: 66 [320/473 (69%)]	Loss: 0.070704 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:06,149 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:07:06,753 - Agent - : Train Epoch: 67 [0/473 (0%)]	Loss: 0.061058 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:12,515 - Agent - : Train Epoch: 67 [160/473 (34%)]	Loss: 0.054573 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:17,784 - Agent - : Train Epoch: 67 [320/473 (69%)]	Loss: 0.068394 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:24,260 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:07:24,871 - Agent - : Train Epoch: 68 [0/473 (0%)]	Loss: 0.059287 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:30,208 - Agent - : Train Epoch: 68 [160/473 (34%)]	Loss: 0.053401 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:35,075 - Agent - : Train Epoch: 68 [320/473 (69%)]	Loss: 0.069939 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:42,947 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:07:48,478 - Agent - : Train Epoch: 69 [0/473 (0%)]	Loss: 0.058883 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:54,461 - Agent - : Train Epoch: 69 [160/473 (34%)]	Loss: 0.052745 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:07:59,644 - Agent - : Train Epoch: 69 [320/473 (69%)]	Loss: 0.067511 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:06,469 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:08:07,449 - Agent - : Train Epoch: 70 [0/473 (0%)]	Loss: 0.059071 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:12,252 - Agent - : Train Epoch: 70 [160/473 (34%)]	Loss: 0.052674 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:17,352 - Agent - : Train Epoch: 70 [320/473 (69%)]	Loss: 0.066447 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:24,647 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:08:25,274 - Agent - : Train Epoch: 71 [0/473 (0%)]	Loss: 0.057201 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:30,344 - Agent - : Train Epoch: 71 [160/473 (34%)]	Loss: 0.052400 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:35,584 - Agent - : Train Epoch: 71 [320/473 (69%)]	Loss: 0.065260 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:41,641 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:08:42,188 - Agent - : Train Epoch: 72 [0/473 (0%)]	Loss: 0.058069 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:47,269 - Agent - : Train Epoch: 72 [160/473 (34%)]	Loss: 0.051219 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:51,976 - Agent - : Train Epoch: 72 [320/473 (69%)]	Loss: 0.067350 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:08:58,675 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:09:03,886 - Agent - : Train Epoch: 73 [0/473 (0%)]	Loss: 0.061835 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:08,703 - Agent - : Train Epoch: 73 [160/473 (34%)]	Loss: 0.049998 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:13,263 - Agent - : Train Epoch: 73 [320/473 (69%)]	Loss: 0.067017 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:19,733 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:09:20,290 - Agent - : Train Epoch: 74 [0/473 (0%)]	Loss: 0.061087 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:25,153 - Agent - : Train Epoch: 74 [160/473 (34%)]	Loss: 0.049580 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:30,142 - Agent - : Train Epoch: 74 [320/473 (69%)]	Loss: 0.062264 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:36,246 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:09:36,852 - Agent - : Train Epoch: 75 [0/473 (0%)]	Loss: 0.054784 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:42,265 - Agent - : Train Epoch: 75 [160/473 (34%)]	Loss: 0.048077 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:47,053 - Agent - : Train Epoch: 75 [320/473 (69%)]	Loss: 0.060047 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:53,463 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:09:54,053 - Agent - : Train Epoch: 76 [0/473 (0%)]	Loss: 0.056559 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:09:59,616 - Agent - : Train Epoch: 76 [160/473 (34%)]	Loss: 0.048010 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:04,457 - Agent - : Train Epoch: 76 [320/473 (69%)]	Loss: 0.059186 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:10,757 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:10:15,896 - Agent - : Train Epoch: 77 [0/473 (0%)]	Loss: 0.056817 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:20,809 - Agent - : Train Epoch: 77 [160/473 (34%)]	Loss: 0.047532 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:25,347 - Agent - : Train Epoch: 77 [320/473 (69%)]	Loss: 0.060108 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:32,263 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:10:32,853 - Agent - : Train Epoch: 78 [0/473 (0%)]	Loss: 0.055262 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:38,483 - Agent - : Train Epoch: 78 [160/473 (34%)]	Loss: 0.045754 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:43,070 - Agent - : Train Epoch: 78 [320/473 (69%)]	Loss: 0.059796 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:49,471 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:10:50,260 - Agent - : Train Epoch: 79 [0/473 (0%)]	Loss: 0.054210 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:10:55,856 - Agent - : Train Epoch: 79 [160/473 (34%)]	Loss: 0.045231 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:00,671 - Agent - : Train Epoch: 79 [320/473 (69%)]	Loss: 0.060730 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:08,376 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:11:09,257 - Agent - : Train Epoch: 80 [0/473 (0%)]	Loss: 0.054775 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:14,002 - Agent - : Train Epoch: 80 [160/473 (34%)]	Loss: 0.047769 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:18,384 - Agent - : Train Epoch: 80 [320/473 (69%)]	Loss: 0.059546 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:24,366 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:11:29,366 - Agent - : Train Epoch: 81 [0/473 (0%)]	Loss: 0.053597 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:34,874 - Agent - : Train Epoch: 81 [160/473 (34%)]	Loss: 0.046755 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:40,952 - Agent - : Train Epoch: 81 [320/473 (69%)]	Loss: 0.057138 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:50,137 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:11:50,742 - Agent - : Train Epoch: 82 [0/473 (0%)]	Loss: 0.050879 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:11:56,382 - Agent - : Train Epoch: 82 [160/473 (34%)]	Loss: 0.044241 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:01,078 - Agent - : Train Epoch: 82 [320/473 (69%)]	Loss: 0.055684 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:07,945 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:12:08,494 - Agent - : Train Epoch: 83 [0/473 (0%)]	Loss: 0.049340 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:13,580 - Agent - : Train Epoch: 83 [160/473 (34%)]	Loss: 0.042066 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:18,281 - Agent - : Train Epoch: 83 [320/473 (69%)]	Loss: 0.055960 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:24,871 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:12:25,469 - Agent - : Train Epoch: 84 [0/473 (0%)]	Loss: 0.050813 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:30,074 - Agent - : Train Epoch: 84 [160/473 (34%)]	Loss: 0.042512 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:35,572 - Agent - : Train Epoch: 84 [320/473 (69%)]	Loss: 0.055027 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:41,848 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:12:47,442 - Agent - : Train Epoch: 85 [0/473 (0%)]	Loss: 0.048515 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:53,051 - Agent - : Train Epoch: 85 [160/473 (34%)]	Loss: 0.040717 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:12:58,780 - Agent - : Train Epoch: 85 [320/473 (69%)]	Loss: 0.054443 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:06,044 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:13:06,673 - Agent - : Train Epoch: 86 [0/473 (0%)]	Loss: 0.048723 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:13,415 - Agent - : Train Epoch: 86 [160/473 (34%)]	Loss: 0.040433 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:19,348 - Agent - : Train Epoch: 86 [320/473 (69%)]	Loss: 0.055083 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:25,772 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:13:26,369 - Agent - : Train Epoch: 87 [0/473 (0%)]	Loss: 0.049155 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:30,942 - Agent - : Train Epoch: 87 [160/473 (34%)]	Loss: 0.041221 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:35,475 - Agent - : Train Epoch: 87 [320/473 (69%)]	Loss: 0.054464 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:41,878 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:13:42,466 - Agent - : Train Epoch: 88 [0/473 (0%)]	Loss: 0.050380 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:47,044 - Agent - : Train Epoch: 88 [160/473 (34%)]	Loss: 0.040174 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:51,954 - Agent - : Train Epoch: 88 [320/473 (69%)]	Loss: 0.053924 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:13:59,166 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:14:04,858 - Agent - : Train Epoch: 89 [0/473 (0%)]	Loss: 0.051267 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:10,150 - Agent - : Train Epoch: 89 [160/473 (34%)]	Loss: 0.039995 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:14,863 - Agent - : Train Epoch: 89 [320/473 (69%)]	Loss: 0.052786 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:20,861 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:14:21,450 - Agent - : Train Epoch: 90 [0/473 (0%)]	Loss: 0.047320 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:25,874 - Agent - : Train Epoch: 90 [160/473 (34%)]	Loss: 0.039873 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:30,357 - Agent - : Train Epoch: 90 [320/473 (69%)]	Loss: 0.053094 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:37,246 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:14:37,783 - Agent - : Train Epoch: 91 [0/473 (0%)]	Loss: 0.046640 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:42,247 - Agent - : Train Epoch: 91 [160/473 (34%)]	Loss: 0.040391 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:46,962 - Agent - : Train Epoch: 91 [320/473 (69%)]	Loss: 0.052974 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:14:55,478 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:14:56,478 - Agent - : Train Epoch: 92 [0/473 (0%)]	Loss: 0.046122 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:02,585 - Agent - : Train Epoch: 92 [160/473 (34%)]	Loss: 0.037874 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:09,254 - Agent - : Train Epoch: 92 [320/473 (69%)]	Loss: 0.052159 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:15,461 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:15:21,350 - Agent - : Train Epoch: 93 [0/473 (0%)]	Loss: 0.046399 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:26,065 - Agent - : Train Epoch: 93 [160/473 (34%)]	Loss: 0.037765 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:30,545 - Agent - : Train Epoch: 93 [320/473 (69%)]	Loss: 0.052039 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:37,239 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:15:37,972 - Agent - : Train Epoch: 94 [0/473 (0%)]	Loss: 0.050394 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:43,003 - Agent - : Train Epoch: 94 [160/473 (34%)]	Loss: 0.037550 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:47,672 - Agent - : Train Epoch: 94 [320/473 (69%)]	Loss: 0.051738 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:15:55,740 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:15:56,567 - Agent - : Train Epoch: 95 [0/473 (0%)]	Loss: 0.046582 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:02,683 - Agent - : Train Epoch: 95 [160/473 (34%)]	Loss: 0.036358 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:07,574 - Agent - : Train Epoch: 95 [320/473 (69%)]	Loss: 0.051045 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:14,060 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:16:14,654 - Agent - : Train Epoch: 96 [0/473 (0%)]	Loss: 0.045368 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:19,279 - Agent - : Train Epoch: 96 [160/473 (34%)]	Loss: 0.035210 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:23,674 - Agent - : Train Epoch: 96 [320/473 (69%)]	Loss: 0.050511 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:29,749 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:16:36,258 - Agent - : Train Epoch: 97 [0/473 (0%)]	Loss: 0.043994 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:42,641 - Agent - : Train Epoch: 97 [160/473 (34%)]	Loss: 0.034496 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:47,251 - Agent - : Train Epoch: 97 [320/473 (69%)]	Loss: 0.050847 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:16:55,638 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:16:56,453 - Agent - : Train Epoch: 98 [0/473 (0%)]	Loss: 0.044207 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:01,682 - Agent - : Train Epoch: 98 [160/473 (34%)]	Loss: 0.034839 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:06,360 - Agent - : Train Epoch: 98 [320/473 (69%)]	Loss: 0.050612 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:14,576 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:17:15,181 - Agent - : Train Epoch: 99 [0/473 (0%)]	Loss: 0.051476 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:20,175 - Agent - : Train Epoch: 99 [160/473 (34%)]	Loss: 0.037951 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:25,045 - Agent - : Train Epoch: 99 [320/473 (69%)]	Loss: 0.053101 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:34,054 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:17:34,875 - Agent - : Train Epoch: 100 [0/473 (0%)]	Loss: 0.052265 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:39,573 - Agent - : Train Epoch: 100 [160/473 (34%)]	Loss: 0.036631 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:44,082 - Agent - : Train Epoch: 100 [320/473 (69%)]	Loss: 0.050123 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:17:50,332 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:17:57,259 - Agent - : Train Epoch: 101 [0/473 (0%)]	Loss: 0.046815 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:01,846 - Agent - : Train Epoch: 101 [160/473 (34%)]	Loss: 0.033968 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:07,572 - Agent - : Train Epoch: 101 [320/473 (69%)]	Loss: 0.049553 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:14,356 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:18:15,038 - Agent - : Train Epoch: 102 [0/473 (0%)]	Loss: 0.048287 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:21,219 - Agent - : Train Epoch: 102 [160/473 (34%)]	Loss: 0.038836 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:26,482 - Agent - : Train Epoch: 102 [320/473 (69%)]	Loss: 0.049519 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:32,575 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:18:33,355 - Agent - : Train Epoch: 103 [0/473 (0%)]	Loss: 0.043377 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:38,458 - Agent - : Train Epoch: 103 [160/473 (34%)]	Loss: 0.034538 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:43,546 - Agent - : Train Epoch: 103 [320/473 (69%)]	Loss: 0.048197 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:52,239 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:18:52,869 - Agent - : Train Epoch: 104 [0/473 (0%)]	Loss: 0.058985 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:18:57,567 - Agent - : Train Epoch: 104 [160/473 (34%)]	Loss: 0.038544 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:03,620 - Agent - : Train Epoch: 104 [320/473 (69%)]	Loss: 0.054101 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:11,642 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:19:16,476 - Agent - : Train Epoch: 105 [0/473 (0%)]	Loss: 0.046717 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:21,255 - Agent - : Train Epoch: 105 [160/473 (34%)]	Loss: 0.033813 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:25,751 - Agent - : Train Epoch: 105 [320/473 (69%)]	Loss: 0.047991 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:31,836 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:19:32,373 - Agent - : Train Epoch: 106 [0/473 (0%)]	Loss: 0.042251 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:36,971 - Agent - : Train Epoch: 106 [160/473 (34%)]	Loss: 0.031591 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:41,770 - Agent - : Train Epoch: 106 [320/473 (69%)]	Loss: 0.047982 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:47,852 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:19:48,469 - Agent - : Train Epoch: 107 [0/473 (0%)]	Loss: 0.042737 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:52,983 - Agent - : Train Epoch: 107 [160/473 (34%)]	Loss: 0.030740 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:19:57,543 - Agent - : Train Epoch: 107 [320/473 (69%)]	Loss: 0.046418 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:03,672 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:20:04,263 - Agent - : Train Epoch: 108 [0/473 (0%)]	Loss: 0.041621 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:09,835 - Agent - : Train Epoch: 108 [160/473 (34%)]	Loss: 0.030753 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:14,708 - Agent - : Train Epoch: 108 [320/473 (69%)]	Loss: 0.047829 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:22,562 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:20:27,144 - Agent - : Train Epoch: 109 [0/473 (0%)]	Loss: 0.040984 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:33,371 - Agent - : Train Epoch: 109 [160/473 (34%)]	Loss: 0.030729 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:38,113 - Agent - : Train Epoch: 109 [320/473 (69%)]	Loss: 0.047993 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:44,060 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:20:44,662 - Agent - : Train Epoch: 110 [0/473 (0%)]	Loss: 0.041705 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:50,479 - Agent - : Train Epoch: 110 [160/473 (34%)]	Loss: 0.030472 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:20:55,059 - Agent - : Train Epoch: 110 [320/473 (69%)]	Loss: 0.046908 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:01,077 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:21:01,786 - Agent - : Train Epoch: 111 [0/473 (0%)]	Loss: 0.041181 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:06,958 - Agent - : Train Epoch: 111 [160/473 (34%)]	Loss: 0.029488 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:11,569 - Agent - : Train Epoch: 111 [320/473 (69%)]	Loss: 0.045450 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:19,933 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:21:20,483 - Agent - : Train Epoch: 112 [0/473 (0%)]	Loss: 0.039814 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:25,043 - Agent - : Train Epoch: 112 [160/473 (34%)]	Loss: 0.028997 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:29,665 - Agent - : Train Epoch: 112 [320/473 (69%)]	Loss: 0.044631 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:35,744 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:21:40,878 - Agent - : Train Epoch: 113 [0/473 (0%)]	Loss: 0.038160 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:46,767 - Agent - : Train Epoch: 113 [160/473 (34%)]	Loss: 0.028869 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:52,355 - Agent - : Train Epoch: 113 [320/473 (69%)]	Loss: 0.044454 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:21:58,549 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:21:59,152 - Agent - : Train Epoch: 114 [0/473 (0%)]	Loss: 0.037670 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:04,061 - Agent - : Train Epoch: 114 [160/473 (34%)]	Loss: 0.028240 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:08,654 - Agent - : Train Epoch: 114 [320/473 (69%)]	Loss: 0.045210 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:14,566 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:22:15,161 - Agent - : Train Epoch: 115 [0/473 (0%)]	Loss: 0.037881 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:19,959 - Agent - : Train Epoch: 115 [160/473 (34%)]	Loss: 0.028122 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:24,485 - Agent - : Train Epoch: 115 [320/473 (69%)]	Loss: 0.043749 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:30,462 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:22:31,126 - Agent - : Train Epoch: 116 [0/473 (0%)]	Loss: 0.036853 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:35,684 - Agent - : Train Epoch: 116 [160/473 (34%)]	Loss: 0.027836 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:40,179 - Agent - : Train Epoch: 116 [320/473 (69%)]	Loss: 0.043200 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:46,066 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:22:50,860 - Agent - : Train Epoch: 117 [0/473 (0%)]	Loss: 0.037539 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:22:55,367 - Agent - : Train Epoch: 117 [160/473 (34%)]	Loss: 0.027356 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:00,047 - Agent - : Train Epoch: 117 [320/473 (69%)]	Loss: 0.042988 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:06,954 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:23:07,792 - Agent - : Train Epoch: 118 [0/473 (0%)]	Loss: 0.037355 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:12,968 - Agent - : Train Epoch: 118 [160/473 (34%)]	Loss: 0.026892 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:18,881 - Agent - : Train Epoch: 118 [320/473 (69%)]	Loss: 0.042194 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:26,974 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:23:27,584 - Agent - : Train Epoch: 119 [0/473 (0%)]	Loss: 0.036532 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:32,851 - Agent - : Train Epoch: 119 [160/473 (34%)]	Loss: 0.026525 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:39,048 - Agent - : Train Epoch: 119 [320/473 (69%)]	Loss: 0.042137 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:47,541 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:23:48,163 - Agent - : Train Epoch: 120 [0/473 (0%)]	Loss: 0.035709 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:53,352 - Agent - : Train Epoch: 120 [160/473 (34%)]	Loss: 0.026026 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:23:58,047 - Agent - : Train Epoch: 120 [320/473 (69%)]	Loss: 0.042372 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:05,656 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:24:10,657 - Agent - : Train Epoch: 121 [0/473 (0%)]	Loss: 0.037067 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:15,757 - Agent - : Train Epoch: 121 [160/473 (34%)]	Loss: 0.026189 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:20,652 - Agent - : Train Epoch: 121 [320/473 (69%)]	Loss: 0.042671 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:28,546 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:24:29,147 - Agent - : Train Epoch: 122 [0/473 (0%)]	Loss: 0.035531 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:33,952 - Agent - : Train Epoch: 122 [160/473 (34%)]	Loss: 0.026686 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:40,019 - Agent - : Train Epoch: 122 [320/473 (69%)]	Loss: 0.044358 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:47,736 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:24:48,575 - Agent - : Train Epoch: 123 [0/473 (0%)]	Loss: 0.036358 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:24:54,881 - Agent - : Train Epoch: 123 [160/473 (34%)]	Loss: 0.026343 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:00,447 - Agent - : Train Epoch: 123 [320/473 (69%)]	Loss: 0.045277 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:07,030 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:25:07,870 - Agent - : Train Epoch: 124 [0/473 (0%)]	Loss: 0.040183 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:14,383 - Agent - : Train Epoch: 124 [160/473 (34%)]	Loss: 0.026553 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:19,086 - Agent - : Train Epoch: 124 [320/473 (69%)]	Loss: 0.042473 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:24,968 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:25:30,111 - Agent - : Train Epoch: 125 [0/473 (0%)]	Loss: 0.035378 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:35,470 - Agent - : Train Epoch: 125 [160/473 (34%)]	Loss: 0.026013 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:40,064 - Agent - : Train Epoch: 125 [320/473 (69%)]	Loss: 0.042171 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:45,932 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:25:46,505 - Agent - : Train Epoch: 126 [0/473 (0%)]	Loss: 0.035586 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:51,122 - Agent - : Train Epoch: 126 [160/473 (34%)]	Loss: 0.025790 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:25:56,460 - Agent - : Train Epoch: 126 [320/473 (69%)]	Loss: 0.041605 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:02,565 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:26:03,154 - Agent - : Train Epoch: 127 [0/473 (0%)]	Loss: 0.036282 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:07,669 - Agent - : Train Epoch: 127 [160/473 (34%)]	Loss: 0.025679 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:13,660 - Agent - : Train Epoch: 127 [320/473 (69%)]	Loss: 0.042142 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:20,751 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:26:21,378 - Agent - : Train Epoch: 128 [0/473 (0%)]	Loss: 0.034395 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:25,896 - Agent - : Train Epoch: 128 [160/473 (34%)]	Loss: 0.024502 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:31,061 - Agent - : Train Epoch: 128 [320/473 (69%)]	Loss: 0.042433 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:38,176 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:26:43,228 - Agent - : Train Epoch: 129 [0/473 (0%)]	Loss: 0.034468 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:48,870 - Agent - : Train Epoch: 129 [160/473 (34%)]	Loss: 0.024131 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:26:53,536 - Agent - : Train Epoch: 129 [320/473 (69%)]	Loss: 0.040133 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:01,449 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:27:02,165 - Agent - : Train Epoch: 130 [0/473 (0%)]	Loss: 0.033168 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:06,873 - Agent - : Train Epoch: 130 [160/473 (34%)]	Loss: 0.024430 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:11,382 - Agent - : Train Epoch: 130 [320/473 (69%)]	Loss: 0.040300 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:18,960 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:27:19,768 - Agent - : Train Epoch: 131 [0/473 (0%)]	Loss: 0.033692 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:25,589 - Agent - : Train Epoch: 131 [160/473 (34%)]	Loss: 0.024449 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:30,264 - Agent - : Train Epoch: 131 [320/473 (69%)]	Loss: 0.039841 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:37,863 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:27:38,775 - Agent - : Train Epoch: 132 [0/473 (0%)]	Loss: 0.032504 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:45,171 - Agent - : Train Epoch: 132 [160/473 (34%)]	Loss: 0.024014 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:49,867 - Agent - : Train Epoch: 132 [320/473 (69%)]	Loss: 0.041212 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:27:55,978 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:28:01,151 - Agent - : Train Epoch: 133 [0/473 (0%)]	Loss: 0.033444 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:05,802 - Agent - : Train Epoch: 133 [160/473 (34%)]	Loss: 0.023519 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:11,474 - Agent - : Train Epoch: 133 [320/473 (69%)]	Loss: 0.040190 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:18,668 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:28:19,277 - Agent - : Train Epoch: 134 [0/473 (0%)]	Loss: 0.032884 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:24,254 - Agent - : Train Epoch: 134 [160/473 (34%)]	Loss: 0.023022 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:28,816 - Agent - : Train Epoch: 134 [320/473 (69%)]	Loss: 0.040388 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:36,265 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:28:36,922 - Agent - : Train Epoch: 135 [0/473 (0%)]	Loss: 0.033549 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:41,769 - Agent - : Train Epoch: 135 [160/473 (34%)]	Loss: 0.023160 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:47,076 - Agent - : Train Epoch: 135 [320/473 (69%)]	Loss: 0.039656 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:53,848 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:28:54,420 - Agent - : Train Epoch: 136 [0/473 (0%)]	Loss: 0.034161 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:28:59,215 - Agent - : Train Epoch: 136 [160/473 (34%)]	Loss: 0.023897 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:03,946 - Agent - : Train Epoch: 136 [320/473 (69%)]	Loss: 0.039032 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:10,849 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:29:15,782 - Agent - : Train Epoch: 137 [0/473 (0%)]	Loss: 0.032872 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:20,455 - Agent - : Train Epoch: 137 [160/473 (34%)]	Loss: 0.023735 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:25,349 - Agent - : Train Epoch: 137 [320/473 (69%)]	Loss: 0.039910 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:32,045 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:29:32,675 - Agent - : Train Epoch: 138 [0/473 (0%)]	Loss: 0.032696 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:38,373 - Agent - : Train Epoch: 138 [160/473 (34%)]	Loss: 0.022827 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:43,754 - Agent - : Train Epoch: 138 [320/473 (69%)]	Loss: 0.039146 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:49,752 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:29:50,467 - Agent - : Train Epoch: 139 [0/473 (0%)]	Loss: 0.032390 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:55,152 - Agent - : Train Epoch: 139 [160/473 (34%)]	Loss: 0.022627 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:29:59,664 - Agent - : Train Epoch: 139 [320/473 (69%)]	Loss: 0.040074 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:05,641 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:30:06,254 - Agent - : Train Epoch: 140 [0/473 (0%)]	Loss: 0.033501 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:10,974 - Agent - : Train Epoch: 140 [160/473 (34%)]	Loss: 0.022845 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:15,474 - Agent - : Train Epoch: 140 [320/473 (69%)]	Loss: 0.039072 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:21,942 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:30:27,259 - Agent - : Train Epoch: 141 [0/473 (0%)]	Loss: 0.034769 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:32,679 - Agent - : Train Epoch: 141 [160/473 (34%)]	Loss: 0.023558 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:37,475 - Agent - : Train Epoch: 141 [320/473 (69%)]	Loss: 0.038718 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:44,671 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:30:45,273 - Agent - : Train Epoch: 142 [0/473 (0%)]	Loss: 0.032679 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:50,271 - Agent - : Train Epoch: 142 [160/473 (34%)]	Loss: 0.023078 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:30:55,777 - Agent - : Train Epoch: 142 [320/473 (69%)]	Loss: 0.040254 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:02,532 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:31:03,375 - Agent - : Train Epoch: 143 [0/473 (0%)]	Loss: 0.033726 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:08,757 - Agent - : Train Epoch: 143 [160/473 (34%)]	Loss: 0.022907 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:14,021 - Agent - : Train Epoch: 143 [320/473 (69%)]	Loss: 0.039420 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:21,576 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:31:22,163 - Agent - : Train Epoch: 144 [0/473 (0%)]	Loss: 0.032790 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:26,752 - Agent - : Train Epoch: 144 [160/473 (34%)]	Loss: 0.023083 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:31,265 - Agent - : Train Epoch: 144 [320/473 (69%)]	Loss: 0.038909 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:39,470 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:31:44,269 - Agent - : Train Epoch: 145 [0/473 (0%)]	Loss: 0.032595 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:49,476 - Agent - : Train Epoch: 145 [160/473 (34%)]	Loss: 0.022811 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:31:53,869 - Agent - : Train Epoch: 145 [320/473 (69%)]	Loss: 0.039035 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:00,632 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:32:01,246 - Agent - : Train Epoch: 146 [0/473 (0%)]	Loss: 0.031871 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:06,685 - Agent - : Train Epoch: 146 [160/473 (34%)]	Loss: 0.022249 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:12,212 - Agent - : Train Epoch: 146 [320/473 (69%)]	Loss: 0.038752 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:19,668 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:32:20,282 - Agent - : Train Epoch: 147 [0/473 (0%)]	Loss: 0.032077 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:25,067 - Agent - : Train Epoch: 147 [160/473 (34%)]	Loss: 0.022796 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:29,611 - Agent - : Train Epoch: 147 [320/473 (69%)]	Loss: 0.039117 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:35,946 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:32:36,496 - Agent - : Train Epoch: 148 [0/473 (0%)]	Loss: 0.032284 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:41,263 - Agent - : Train Epoch: 148 [160/473 (34%)]	Loss: 0.021962 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:46,264 - Agent - : Train Epoch: 148 [320/473 (69%)]	Loss: 0.039069 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:32:52,155 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:32:57,356 - Agent - : Train Epoch: 149 [0/473 (0%)]	Loss: 0.032333 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:02,754 - Agent - : Train Epoch: 149 [160/473 (34%)]	Loss: 0.022377 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:08,396 - Agent - : Train Epoch: 149 [320/473 (69%)]	Loss: 0.039182 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:14,570 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:33:15,169 - Agent - : Train Epoch: 150 [0/473 (0%)]	Loss: 0.032219 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:19,679 - Agent - : Train Epoch: 150 [160/473 (34%)]	Loss: 0.022302 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:24,166 - Agent - : Train Epoch: 150 [320/473 (69%)]	Loss: 0.038837 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:30,933 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:33:31,547 - Agent - : Train Epoch: 151 [0/473 (0%)]	Loss: 0.033694 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:36,066 - Agent - : Train Epoch: 151 [160/473 (34%)]	Loss: 0.022161 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:40,670 - Agent - : Train Epoch: 151 [320/473 (69%)]	Loss: 0.038525 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:49,773 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:33:50,670 - Agent - : Train Epoch: 152 [0/473 (0%)]	Loss: 0.032301 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:55,156 - Agent - : Train Epoch: 152 [160/473 (34%)]	Loss: 0.023545 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:33:59,783 - Agent - : Train Epoch: 152 [320/473 (69%)]	Loss: 0.038142 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:05,760 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:34:10,756 - Agent - : Train Epoch: 153 [0/473 (0%)]	Loss: 0.033282 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:15,354 - Agent - : Train Epoch: 153 [160/473 (34%)]	Loss: 0.022353 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:20,253 - Agent - : Train Epoch: 153 [320/473 (69%)]	Loss: 0.037667 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:27,041 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:34:27,667 - Agent - : Train Epoch: 154 [0/473 (0%)]	Loss: 0.031672 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:32,180 - Agent - : Train Epoch: 154 [160/473 (34%)]	Loss: 0.021826 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:36,652 - Agent - : Train Epoch: 154 [320/473 (69%)]	Loss: 0.037520 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:42,668 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:34:43,268 - Agent - : Train Epoch: 155 [0/473 (0%)]	Loss: 0.031594 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:47,764 - Agent - : Train Epoch: 155 [160/473 (34%)]	Loss: 0.021152 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:34:53,983 - Agent - : Train Epoch: 155 [320/473 (69%)]	Loss: 0.037253 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:01,455 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:35:02,059 - Agent - : Train Epoch: 156 [0/473 (0%)]	Loss: 0.031719 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:07,274 - Agent - : Train Epoch: 156 [160/473 (34%)]	Loss: 0.021373 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:12,761 - Agent - : Train Epoch: 156 [320/473 (69%)]	Loss: 0.037417 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:20,445 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:35:25,608 - Agent - : Train Epoch: 157 [0/473 (0%)]	Loss: 0.033101 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:30,963 - Agent - : Train Epoch: 157 [160/473 (34%)]	Loss: 0.021327 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:36,060 - Agent - : Train Epoch: 157 [320/473 (69%)]	Loss: 0.037241 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:45,145 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:35:45,953 - Agent - : Train Epoch: 158 [0/473 (0%)]	Loss: 0.030883 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:51,083 - Agent - : Train Epoch: 158 [160/473 (34%)]	Loss: 0.021755 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:35:56,981 - Agent - : Train Epoch: 158 [320/473 (69%)]	Loss: 0.038588 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:03,762 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:36:04,366 - Agent - : Train Epoch: 159 [0/473 (0%)]	Loss: 0.033235 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:08,860 - Agent - : Train Epoch: 159 [160/473 (34%)]	Loss: 0.021628 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:13,444 - Agent - : Train Epoch: 159 [320/473 (69%)]	Loss: 0.038918 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:21,267 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:36:22,153 - Agent - : Train Epoch: 160 [0/473 (0%)]	Loss: 0.033435 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:27,515 - Agent - : Train Epoch: 160 [160/473 (34%)]	Loss: 0.022489 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:32,252 - Agent - : Train Epoch: 160 [320/473 (69%)]	Loss: 0.037657 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:40,978 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:36:46,083 - Agent - : Train Epoch: 161 [0/473 (0%)]	Loss: 0.031038 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:50,745 - Agent - : Train Epoch: 161 [160/473 (34%)]	Loss: 0.021356 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:36:55,605 - Agent - : Train Epoch: 161 [320/473 (69%)]	Loss: 0.037319 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:03,045 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:37:03,678 - Agent - : Train Epoch: 162 [0/473 (0%)]	Loss: 0.030795 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:08,179 - Agent - : Train Epoch: 162 [160/473 (34%)]	Loss: 0.020913 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:13,042 - Agent - : Train Epoch: 162 [320/473 (69%)]	Loss: 0.037181 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:19,253 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:37:19,953 - Agent - : Train Epoch: 163 [0/473 (0%)]	Loss: 0.030405 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:24,543 - Agent - : Train Epoch: 163 [160/473 (34%)]	Loss: 0.020481 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:29,081 - Agent - : Train Epoch: 163 [320/473 (69%)]	Loss: 0.037097 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:35,052 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:37:35,678 - Agent - : Train Epoch: 164 [0/473 (0%)]	Loss: 0.030218 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:40,165 - Agent - : Train Epoch: 164 [160/473 (34%)]	Loss: 0.020638 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:45,757 - Agent - : Train Epoch: 164 [320/473 (69%)]	Loss: 0.037598 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:37:53,451 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:37:58,188 - Agent - : Train Epoch: 165 [0/473 (0%)]	Loss: 0.031481 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:03,580 - Agent - : Train Epoch: 165 [160/473 (34%)]	Loss: 0.020425 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:08,570 - Agent - : Train Epoch: 165 [320/473 (69%)]	Loss: 0.036791 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:16,479 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:38:17,345 - Agent - : Train Epoch: 166 [0/473 (0%)]	Loss: 0.030573 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:22,642 - Agent - : Train Epoch: 166 [160/473 (34%)]	Loss: 0.020422 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:27,159 - Agent - : Train Epoch: 166 [320/473 (69%)]	Loss: 0.036854 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:33,461 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:38:34,057 - Agent - : Train Epoch: 167 [0/473 (0%)]	Loss: 0.029971 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:40,391 - Agent - : Train Epoch: 167 [160/473 (34%)]	Loss: 0.020374 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:45,182 - Agent - : Train Epoch: 167 [320/473 (69%)]	Loss: 0.036742 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:52,276 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:38:52,865 - Agent - : Train Epoch: 168 [0/473 (0%)]	Loss: 0.029963 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:38:57,578 - Agent - : Train Epoch: 168 [160/473 (34%)]	Loss: 0.020314 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:04,867 - Agent - : Train Epoch: 168 [320/473 (69%)]	Loss: 0.037199 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:12,337 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:39:17,280 - Agent - : Train Epoch: 169 [0/473 (0%)]	Loss: 0.030102 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:22,781 - Agent - : Train Epoch: 169 [160/473 (34%)]	Loss: 0.020395 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:28,457 - Agent - : Train Epoch: 169 [320/473 (69%)]	Loss: 0.036590 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:34,632 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:39:35,171 - Agent - : Train Epoch: 170 [0/473 (0%)]	Loss: 0.036933 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:39,766 - Agent - : Train Epoch: 170 [160/473 (34%)]	Loss: 0.058425 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:44,978 - Agent - : Train Epoch: 170 [320/473 (69%)]	Loss: 0.072036 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:52,140 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:39:52,683 - Agent - : Train Epoch: 171 [0/473 (0%)]	Loss: 0.102288 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:39:57,175 - Agent - : Train Epoch: 171 [160/473 (34%)]	Loss: 0.087391 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:02,128 - Agent - : Train Epoch: 171 [320/473 (69%)]	Loss: 0.066387 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:09,344 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:40:10,178 - Agent - : Train Epoch: 172 [0/473 (0%)]	Loss: 0.102867 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:16,857 - Agent - : Train Epoch: 172 [160/473 (34%)]	Loss: 0.056998 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:22,165 - Agent - : Train Epoch: 172 [320/473 (69%)]	Loss: 0.087791 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:28,353 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:40:33,442 - Agent - : Train Epoch: 173 [0/473 (0%)]	Loss: 0.069028 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:38,383 - Agent - : Train Epoch: 173 [160/473 (34%)]	Loss: 0.041038 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:43,571 - Agent - : Train Epoch: 173 [320/473 (69%)]	Loss: 0.060892 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:49,659 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:40:50,266 - Agent - : Train Epoch: 174 [0/473 (0%)]	Loss: 0.058208 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:55,047 - Agent - : Train Epoch: 174 [160/473 (34%)]	Loss: 0.038804 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:40:59,676 - Agent - : Train Epoch: 174 [320/473 (69%)]	Loss: 0.048779 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:09,157 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:41:10,024 - Agent - : Train Epoch: 175 [0/473 (0%)]	Loss: 0.046478 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:14,775 - Agent - : Train Epoch: 175 [160/473 (34%)]	Loss: 0.049331 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:19,668 - Agent - : Train Epoch: 175 [320/473 (69%)]	Loss: 0.056484 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:27,355 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:41:27,954 - Agent - : Train Epoch: 176 [0/473 (0%)]	Loss: 0.078008 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:33,380 - Agent - : Train Epoch: 176 [160/473 (34%)]	Loss: 0.040590 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:38,654 - Agent - : Train Epoch: 176 [320/473 (69%)]	Loss: 0.053919 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:44,449 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:41:49,578 - Agent - : Train Epoch: 177 [0/473 (0%)]	Loss: 0.047857 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:54,074 - Agent - : Train Epoch: 177 [160/473 (34%)]	Loss: 0.034212 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:41:59,185 - Agent - : Train Epoch: 177 [320/473 (69%)]	Loss: 0.047061 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:07,062 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:42:08,002 - Agent - : Train Epoch: 178 [0/473 (0%)]	Loss: 0.039978 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:12,987 - Agent - : Train Epoch: 178 [160/473 (34%)]	Loss: 0.026685 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:17,480 - Agent - : Train Epoch: 178 [320/473 (69%)]	Loss: 0.043000 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:23,450 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:42:24,047 - Agent - : Train Epoch: 179 [0/473 (0%)]	Loss: 0.036115 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:28,475 - Agent - : Train Epoch: 179 [160/473 (34%)]	Loss: 0.025052 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:33,173 - Agent - : Train Epoch: 179 [320/473 (69%)]	Loss: 0.039899 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:38,979 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:42:39,576 - Agent - : Train Epoch: 180 [0/473 (0%)]	Loss: 0.034015 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:44,165 - Agent - : Train Epoch: 180 [160/473 (34%)]	Loss: 0.023023 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:48,656 - Agent - : Train Epoch: 180 [320/473 (69%)]	Loss: 0.039578 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:42:54,773 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:42:59,392 - Agent - : Train Epoch: 181 [0/473 (0%)]	Loss: 0.032912 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:05,057 - Agent - : Train Epoch: 181 [160/473 (34%)]	Loss: 0.022356 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:09,558 - Agent - : Train Epoch: 181 [320/473 (69%)]	Loss: 0.038895 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:16,357 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:43:16,956 - Agent - : Train Epoch: 182 [0/473 (0%)]	Loss: 0.032136 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:21,950 - Agent - : Train Epoch: 182 [160/473 (34%)]	Loss: 0.021682 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:26,682 - Agent - : Train Epoch: 182 [320/473 (69%)]	Loss: 0.038087 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:32,945 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:43:33,568 - Agent - : Train Epoch: 183 [0/473 (0%)]	Loss: 0.031047 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:38,171 - Agent - : Train Epoch: 183 [160/473 (34%)]	Loss: 0.021118 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:42,762 - Agent - : Train Epoch: 183 [320/473 (69%)]	Loss: 0.037542 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:48,855 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:43:49,466 - Agent - : Train Epoch: 184 [0/473 (0%)]	Loss: 0.030964 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:54,043 - Agent - : Train Epoch: 184 [160/473 (34%)]	Loss: 0.020972 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:43:58,573 - Agent - : Train Epoch: 184 [320/473 (69%)]	Loss: 0.037184 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:07,358 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:44:11,955 - Agent - : Train Epoch: 185 [0/473 (0%)]	Loss: 0.030524 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:17,139 - Agent - : Train Epoch: 185 [160/473 (34%)]	Loss: 0.020470 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:21,641 - Agent - : Train Epoch: 185 [320/473 (69%)]	Loss: 0.037218 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:28,348 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:44:28,911 - Agent - : Train Epoch: 186 [0/473 (0%)]	Loss: 0.030109 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:33,403 - Agent - : Train Epoch: 186 [160/473 (34%)]	Loss: 0.020254 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:37,960 - Agent - : Train Epoch: 186 [320/473 (69%)]	Loss: 0.036661 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:45,936 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:44:46,776 - Agent - : Train Epoch: 187 [0/473 (0%)]	Loss: 0.029585 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:51,859 - Agent - : Train Epoch: 187 [160/473 (34%)]	Loss: 0.020212 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:44:56,207 - Agent - : Train Epoch: 187 [320/473 (69%)]	Loss: 0.036587 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:04,378 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:45:05,202 - Agent - : Train Epoch: 188 [0/473 (0%)]	Loss: 0.029741 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:11,258 - Agent - : Train Epoch: 188 [160/473 (34%)]	Loss: 0.020060 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:17,461 - Agent - : Train Epoch: 188 [320/473 (69%)]	Loss: 0.036022 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:24,244 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:45:29,079 - Agent - : Train Epoch: 189 [0/473 (0%)]	Loss: 0.029283 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:34,651 - Agent - : Train Epoch: 189 [160/473 (34%)]	Loss: 0.019649 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:39,846 - Agent - : Train Epoch: 189 [320/473 (69%)]	Loss: 0.035936 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:46,556 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:45:47,271 - Agent - : Train Epoch: 190 [0/473 (0%)]	Loss: 0.029490 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:51,785 - Agent - : Train Epoch: 190 [160/473 (34%)]	Loss: 0.019747 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:45:57,456 - Agent - : Train Epoch: 190 [320/473 (69%)]	Loss: 0.035650 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:03,678 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:46:04,270 - Agent - : Train Epoch: 191 [0/473 (0%)]	Loss: 0.029410 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:08,949 - Agent - : Train Epoch: 191 [160/473 (34%)]	Loss: 0.019590 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:13,453 - Agent - : Train Epoch: 191 [320/473 (69%)]	Loss: 0.036433 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:21,740 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:46:22,280 - Agent - : Train Epoch: 192 [0/473 (0%)]	Loss: 0.029837 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:26,766 - Agent - : Train Epoch: 192 [160/473 (34%)]	Loss: 0.019522 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:31,451 - Agent - : Train Epoch: 192 [320/473 (69%)]	Loss: 0.036314 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:37,250 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:46:41,878 - Agent - : Train Epoch: 193 [0/473 (0%)]	Loss: 0.029743 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:46,662 - Agent - : Train Epoch: 193 [160/473 (34%)]	Loss: 0.019607 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:51,183 - Agent - : Train Epoch: 193 [320/473 (69%)]	Loss: 0.036642 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:46:57,672 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:46:58,288 - Agent - : Train Epoch: 194 [0/473 (0%)]	Loss: 0.029589 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:04,657 - Agent - : Train Epoch: 194 [160/473 (34%)]	Loss: 0.019707 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:10,543 - Agent - : Train Epoch: 194 [320/473 (69%)]	Loss: 0.036597 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:17,873 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:47:18,490 - Agent - : Train Epoch: 195 [0/473 (0%)]	Loss: 0.029506 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:23,281 - Agent - : Train Epoch: 195 [160/473 (34%)]	Loss: 0.019550 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:27,876 - Agent - : Train Epoch: 195 [320/473 (69%)]	Loss: 0.037338 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:34,953 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:47:35,533 - Agent - : Train Epoch: 196 [0/473 (0%)]	Loss: 0.029288 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:40,173 - Agent - : Train Epoch: 196 [160/473 (34%)]	Loss: 0.019546 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:44,754 - Agent - : Train Epoch: 196 [320/473 (69%)]	Loss: 0.035661 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:47:51,335 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:47:55,888 - Agent - : Train Epoch: 197 [0/473 (0%)]	Loss: 0.028994 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:01,132 - Agent - : Train Epoch: 197 [160/473 (34%)]	Loss: 0.019875 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:06,769 - Agent - : Train Epoch: 197 [320/473 (69%)]	Loss: 0.035644 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:13,665 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:48:14,272 - Agent - : Train Epoch: 198 [0/473 (0%)]	Loss: 0.029556 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:18,869 - Agent - : Train Epoch: 198 [160/473 (34%)]	Loss: 0.020123 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:24,157 - Agent - : Train Epoch: 198 [320/473 (69%)]	Loss: 0.035638 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:30,537 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:48:31,158 - Agent - : Train Epoch: 199 [0/473 (0%)]	Loss: 0.029255 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:35,779 - Agent - : Train Epoch: 199 [160/473 (34%)]	Loss: 0.019489 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:40,250 - Agent - : Train Epoch: 199 [320/473 (69%)]	Loss: 0.035467 in /home/jovyan/input/Code/Science/agents/unet.py:134
+[INFO] - 2024-07-13 09:48:46,756 - Agent - : 
+Validate set: acc: 96.7871, IOU: 74.6631, pre: 85.0336, rec: 85.9592, F1: 85.4939, kappa: 83.6875
+ in /home/jovyan/input/Code/Science/agents/unet.py:185
+[INFO] - 2024-07-13 09:49:44,260 - Agent - : 
+Test set: acc: 97.5976, IOU: 80.4220, pre: 88.7053, rec: 89.5968, F1: 89.1488, kappa: 87.7981
+ in /home/jovyan/input/Code/Science/agents/unet.py:225

@@ -1,0 +1,46 @@
+{
+  "exp_name": "resunet_exp_LEIVCD_seg_512_1",
+  "agent": "ResUnetAgent",
+  "mode": "train",
+
+  "cuda": true,
+  "gpu_device": 0,
+  "seed": 2154,
+
+  "start_epoch": 0,
+  "max_epoch": 200,
+  "mask_ratio": 0.75,
+  "pretrained_path": "/home/jovyan/work/Code/save",
+  "save_path": "/home/jovyan/input/Code/Science/experiments/resunet_exp_LEIVCD_seg_512_1/save",
+  "data_path": "/home/jovyan/input/testfork/LEIVCD_seg_512",
+  "log_path": "/home/jovyan/input/Code/Science/experiments/resunet_exp_LEIVCD_seg_512_1/log/",
+  "save_image_dir": "/home/jovyan/input/Code/Science/experiments/resunet_exp_LEIVCD_seg_512_1/unet_save_image",
+  "save_label_dir": "/home/jovyan/input/Code/Science/experiments/resunet_exp_LEIVCD_seg_512_1/unet_save_label",
+  "save_out_dir": "/home/jovyan/input/Code/Science/experiments/resunet_exp_LEIVCD_seg_512_1/unet_save_out",
+  "save_checkpoint_path": "/home/jovyan/input/Code/Science/experiments/resunet_exp_LEIVCD_seg_512_1/checkpoints",
+  "train_batch_size": 16,
+  "test_batch_size": 1,
+  "model_name": "ResUnet",
+  "save_every": 4,
+  "resume": true,
+  "num_worker": 0,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-8,
+  "img_size": 224,
+  "num_classes": 3,
+  "n_skip": 3,
+
+
+  "momentum": 0.5,
+  "beta1": 0.9,
+  "beta2": 0.999,
+
+
+  "log_interval": 10,
+
+
+  "data_loader": "ResUnetDataLoader",
+
+  "data_mode": "imags",
+  "data_folder": ""
+}

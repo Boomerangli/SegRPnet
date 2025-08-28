@@ -24,7 +24,6 @@ A novel semantic segmentation framework designed for **large-scale high-resoluti
 | AIDS      | 88.69%          | **89.99%**     | +1.30% |
 | Vaihingen | 86.56%          | **88.44%**     | +1.88% |
 
-- 📊 RPFusionNet outperforms **DeepLabv3+, PSPNet, UANet, TransUNet, RSMamba, UNetMamba** etc.
 - 🎯 Gains are especially strong in **large buildings, weak-texture regions, and dense small-object areas**.
 - ⚡ FLOPs: **3.85 G** | Trainable Params: **46.83 M**
 
@@ -42,30 +41,6 @@ conda activate RPFusionNet
 
 pip install -r requirements.txt
 ```
-
-------
-
-## ⚙️ Usage
-
-### 🔧 Step 1: Train on dataset
-
-```bash
-python scripts/train.py --dataset WBDS
-```
-
-### 🧪 Step 2: Evaluate model
-
-```bash
-python scripts/evaluate.py --dataset WBDS
-```
-
-### 💡 Step 3: Inference
-
-```bash
-python scripts/inference.py --input path/to/image.png
-```
-
-------
 
 ## 📊 Ablation Studies
 
